@@ -4,3 +4,13 @@
   letter-spacing: 0.2rem;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
 }
+
+.fiverr-text {
+  color: var(--secondary);
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    color: var(--primary);
+  }
+}
