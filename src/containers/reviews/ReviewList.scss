@@ -1,0 +1,31 @@
+.reviews-card {
+  background: var(--light);
+  padding: 2rem;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
+  border: 1px solid var(--secondary);
+}
+.client__name {
+  font-size: 1.6rem;
+  letter-spacing: 0.25rem;
+  line-height: 3rem;
+  color: var(--primary);
+}
+.star-container {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  list-style-type: none;
+  color: var(--secondary);
+
+  li {
+    font-size: 1.5rem;
+    margin-right: 4px;
+  }
+}
+.feedback-text {
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 3rem;
+  letter-spacing: 0.17rem;
+  color: var(--dark);
+}
