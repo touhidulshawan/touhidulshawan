@@ -1,0 +1,45 @@
+.project {
+  //   background: var(--secondary);
+  padding: 2rem;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+
+  &__title {
+    font-size: 1.7rem;
+    line-height: 3rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    letter-spacing: 0.13rem;
+  }
+
+  &__link {
+    border-top: 1px solid var(--primary);
+    padding-top: 1rem;
+    margin-top: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    a {
+      color: var(--primary);
+      text-decoration: none;
+
+      transition: all 0.3s ease-in-out;
+      font-size: 1.4rem;
+
+      &:hover {
+        color: var(--dark);
+      }
+    }
+    a:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    .linkIcon {
+      margin-right: 7px;
+    }
+  }
+}
