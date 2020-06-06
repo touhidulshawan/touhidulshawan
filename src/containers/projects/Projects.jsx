@@ -4,6 +4,9 @@ import "./Projects.scss";
 import ProjectData from "./ProjectsData.json";
 import Project from "./ Project";
 
+import Aux from "../../components/hoc/Aux";
+import NavBar from "../../components/navBar/navBar";
+
 const Projects = () => {
   const [projectData] = useState(ProjectData);
 
@@ -11,22 +14,25 @@ const Projects = () => {
     document.title = "Projects";
   });
   return (
-    <div className="projects">
-      <h3>Some Frontend Projects</h3>
-      <div className="project_container">
-        {projectData.map((p) => {
-          return (
-            <Project
-              key={p.id}
-              title={p.projectTitle}
-              description={p.projectDes}
-              sourceLink={p.sourceLink}
-              liveLink={p.liveLink}
-            />
-          );
-        })}
+    <Aux>
+      <NavBar />
+      <div className="projects">
+        <h3>Some Frontend Projects</h3>
+        <div className="project_container">
+          {projectData.map((p) => {
+            return (
+              <Project
+                key={p.id}
+                title={p.projectTitle}
+                description={p.projectDes}
+                sourceLink={p.sourceLink}
+                liveLink={p.liveLink}
+              />
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </Aux>
   );
 };
 

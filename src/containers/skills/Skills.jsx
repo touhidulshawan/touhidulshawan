@@ -13,23 +13,29 @@ import { FaGithub } from "react-icons/fa";
 
 import Skill from "./Skill";
 
+import Aux from "../../components/hoc/Aux";
+import NavBar from "../../components/navBar/navBar";
+
 const Projects = () => {
   useEffect(() => {
     document.title = "Skills";
   });
 
   return (
-    <div className="skills">
-      <Skill icon={<FaHtml5 />} skillText="html" />
-      <Skill icon={<FaCss3Alt />} skillText="css/scss" />
-      <Skill icon={<FaBootstrap />} skillText="bootstrap" />
-      <Skill icon={<DiJavascript1 />} skillText="javascript" />
-      <Skill icon={<FaReact />} skillText="react" />
-      <Skill icon={<FaNodeJs />} skillText="nodejs" />
-      <Skill icon={<FaPython />} skillText="python" />
-      <Skill icon={<DiGit />} skillText="git" />
-      <Skill icon={<FaGithub />} skillText="github" />
-    </div>
+    <Aux>
+      <NavBar />
+      <div className="skills">
+        <Skill icon={<FaHtml5 />} skillText="html" />
+        <Skill icon={<FaCss3Alt />} skillText="css/scss" />
+        <Skill icon={<FaBootstrap />} skillText="bootstrap" />
+        <Skill icon={<DiJavascript1 />} skillText="javascript" />
+        <Skill icon={<FaReact />} skillText="react" />
+        <Skill icon={<FaNodeJs />} skillText="nodejs" />
+        <Skill icon={<FaPython />} skillText="python" />
+        <Skill icon={<DiGit />} skillText="git" />
+        <Skill icon={<FaGithub />} skillText="github" />
+      </div>
+    </Aux>
   );
 };
 
