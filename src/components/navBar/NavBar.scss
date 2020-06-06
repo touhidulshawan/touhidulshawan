@@ -34,6 +34,11 @@
   }
 }
 
+.activeLink {
+  letter-spacing: 0.22rem;
+  color: var(--secondary);
+}
+
 @media (min-width: 600px) {
   .navBar {
     ul {

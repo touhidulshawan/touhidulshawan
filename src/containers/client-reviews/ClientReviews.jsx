@@ -7,7 +7,7 @@ import Reviews from "./Reviews.json";
 import Aux from "../../components/hoc/Aux";
 import NavBar from "../../components/navBar/navBar";
 
-const Projects = () => {
+const ClientReviews = () => {
   const [reviews] = useState(Reviews);
 
   useEffect(() => {
@@ -36,4 +36,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ClientReviews;

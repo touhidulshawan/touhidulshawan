@@ -5,7 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./containers/home/Home";
 import Projects from "./containers/projects/Projects";
 import Skills from "./containers/skills/Skills";
-import Reviews from "./containers/reviews/Reviews";
+import Reviews from "./containers/client-reviews/ClientReviews";
 
 const App = () => {
   return (
