@@ -1,11 +1,14 @@
 import React from "react";
-
 import { NavLink } from "react-router-dom";
 
 const NavItem = (props) => {
   return (
     <li>
-      <NavLink activeClassName="activeLink" to={props.link} exact>
+      <NavLink
+        activeStyle={{ letterSpacing: "0.22rem", color: "#26a682" }}
+        to={props.link}
+        exact
+      >
         {props.linkName}
       </NavLink>
     </li>

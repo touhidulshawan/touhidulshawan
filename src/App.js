@@ -6,6 +6,7 @@ import Home from "./containers/home/Home";
 import Projects from "./containers/projects/Projects";
 import Skills from "./containers/skills/Skills";
 import Reviews from "./containers/client-reviews/ClientReviews";
+import Page404 from "./components/404/Page404";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/reviews" exact>
           <Reviews />
         </Route>
+        <Route component={Page404} />
       </Switch>
     </div>
   );
