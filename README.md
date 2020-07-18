@@ -1,5 +1,7 @@
 
-<p align="center"><img src="./programmer.gif" alt="drawing" style="margin: 20px"  width="400"/></p>
+<p align="center">
+![banner_image][banner]
+</p>
 
 🏡 [website][website] **|** 
 👍 [facebook][facebook] **|** 
@@ -51,7 +53,7 @@ Here some reviews from my client in [Fiverr](https://www.fiverr.com/frontwebdev)
 > Arch Linux with KDE 🐧
 
 
-
+[banner]:https://github.com/touhidulShawan/touhidulshawan/blob/master/programmer.gif
 [website]: https://touhidulshawan.github.io/touhidulshawan/#/
 [facebook]: https://www.facebook.com/touhidulshawan
 [twitter]: https://twitter.com/TouhidulShaon
