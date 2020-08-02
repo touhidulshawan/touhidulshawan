@@ -50,7 +50,7 @@ const FullScreenNav = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiFillGithub className="text-2xl text-gray-500" />
+            <AiFillGithub className="text-2xl text-gray-500 hover:text-gray-700 transition ease-out duration-500" />
           </a>
         </div>
       </div>
