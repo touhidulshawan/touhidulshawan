@@ -1,13 +1,16 @@
 import React from "react";
-import "./ProfileName.scss";
 
 import Aux from "../hoc/Aux";
 
 const ProfileName = () => {
   return (
     <Aux>
-      <h4 className="profileName">Touhidul Shawan</h4>
-      <small className="whoami">Web Developer</small>
+      <h4 className=" text-lg uppercase text-indigo-600 tracking-wider">
+        Touhidul Shawan
+      </h4>
+      <small className="text-sm text-teal-600 tracking-wider">
+        Web Developer
+      </small>
     </Aux>
   );
 };

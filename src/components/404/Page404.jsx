@@ -1,5 +1,4 @@
 import React from "react";
-import "./Page404.scss";
 import img404 from "../../assets/img/404.svg";
 import { Link } from "react-router-dom";
 import { TiArrowBack } from "react-icons/ti";

@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import "./Reviews.scss";
 
 import ReviewList from "./ReviewList";
 import Reviews from "./Reviews.json";
 
 import Aux from "../../components/hoc/Aux";
 import NavBar from "../../components/navBar/navBar";
+
+import { AiOutlineUser } from "react-icons/ai";
 
 const ClientReviews = () => {
   const [reviews] = useState(Reviews);
@@ -17,9 +18,11 @@ const ClientReviews = () => {
   return (
     <Aux>
       <NavBar />
-      <div className="reviews">
-        <h3>Here are some reviews from my clients in Fiverr</h3>
-        <div className="reviews-wrapper">
+      <div className=" container mt-24 pt-5 md:my-16 md:pt-4 lg:my-20 m-auto">
+        <h3 className=" mb-4 text-xl  text-gray-500  text-center">
+          Here are some reviews from my clients in Fiverr
+        </h3>
+        <div className=" p-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-10">
           {reviews.map((r) => {
             return (
               <ReviewList
@@ -30,6 +33,19 @@ const ClientReviews = () => {
               />
             );
           })}
+        </div>
+        <div className="mt-4">
+          <a
+            href="https://www.fiverr.com/frontwebdev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" text-blue-500"
+          >
+            <span className="flex justify-center items-center">
+              <AiOutlineUser className="text-xl mr-2" />
+              <span>See Fiverr Profile</span>
+            </span>
+          </a>
         </div>
       </div>
     </Aux>

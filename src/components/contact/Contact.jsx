@@ -1,27 +1,20 @@
 import React from "react";
-import "./Contact.scss";
 
-import { FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
-const Contact = (props) => {
+const Contact = () => {
   return (
-    <div className="contact">
-      <a
-        href="https://github.com/touhidulShawan"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaGithub />
-      </a>
-      <a
-        href="mailto:touhidulshawan@gmail.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+    <a
+      href="mailto:touhidulshawan@gmail.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm bg-purple-600 text-purple-100 uppercase border  border-purple-600 w-48 p-4 rounded-md shadow-inline tracking-wide flex justify-center items-center mt-3 mb-4"
+    >
+      <span className="text-lg mr-2">
         <GrMail />
-      </a>
-    </div>
+      </span>
+      Contact Me
+    </a>
   );
 };
 

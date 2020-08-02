@@ -10,7 +10,7 @@ import Page404 from "./components/404/Page404";
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Switch>
         <Route path="/" exact>
           <Home />
@@ -26,7 +26,7 @@ const App = () => {
         </Route>
         <Route component={Page404} />
       </Switch>
-    </div>
+    </main>
   );
 };
 

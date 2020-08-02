@@ -1,51 +1,31 @@
-import React, { useState, useEffect } from "react";
-import "./Home.scss";
+import React, { useEffect } from "react";
 
 import ProfileImg from "../../components/profile-image/ProfileImg";
-import ProfileName from "../../components/profile-name/ProfileName";
 import Bio from "../../components/bio/Bio";
-import Contact from "../../components/contact/Contact";
-import NavItem from "../../components/navItem/NavItem";
+import Aux from "../../components/hoc/Aux";
+import NavBar from "../../components/navBar/navBar";
 
 const Home = () => {
-  const [links] = useState([
-    { id: "#1", link: "/projects", linkName: "projects" },
-    { id: "#2", link: "/skills", linkName: "skills" },
-    { id: "#3", link: "/reviews", linkName: "reviews" },
-  ]);
-
   //set title
   useEffect(() => {
     document.title = "Touhidul Shawan";
   });
   return (
-    <div className="home__container">
-      <div className="profile__img">
-        <ProfileImg />
-      </div>
-      <div className="home">
-        <div className="profile__name">
-          <ProfileName />
-        </div>
-        <div className="profile__bio">
-          <Bio />
-        </div>
-        <div className="profile__contact">
-          <Contact />
-        </div>
-        <div className="nav__container">
-          <nav className="nav">
-            <ul>
-              {links.map((l) => {
-                return (
-                  <NavItem key={l.id} link={l.link} linkName={l.linkName} />
-                );
-              })}
-            </ul>
-          </nav>
+    <Aux>
+      <NavBar />
+      <div className="lg:flex lg:justify-center lg:items-center container m-auto lg:mt-20">
+        <div className=" flex flex-col-reverse items-center lg:items-start text-center lg:grid lg:grid-cols-3 lg:min-h-3/6 pt-20 gap-10">
+          <div className="col-span-2 w-2/3 ">
+            <Bio />
+          </div>
+          <div className="col-span-1 ">
+            <div className=" w-9/12  h-9/12 md:w-3/6 md:h-3/6  m-auto lg:w-auto lg:h-auto mb-6">
+              <ProfileImg />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </Aux>
   );
 };
 

@@ -1,11 +1,16 @@
 import React from "react";
-import "./Skill.scss";
 
 const Skill = (props) => {
   return (
-    <div className="skill__list__container">
-      <span>{props.icon}</span>
-      <p>{props.skillText}</p>
+    <div className=" bg-gray-100 shadow-xs flex flex-col justify-center  items-center rounded-sm">
+      <span className={`text-6xl text-${props.txtColor} mb-2 p-3`}>
+        {props.icon}
+      </span>
+      <p
+        className={`capitalize w-full p-1 text-center bg-${props.txtColor} text-gray-100`}
+      >
+        {props.skillText}
+      </p>
     </div>
   );
 };

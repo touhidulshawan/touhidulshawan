@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./Projects.scss";
 
 import ProjectData from "./ProjectsData.json";
 import Project from "./ Project";
@@ -16,9 +15,11 @@ const Projects = () => {
   return (
     <Aux>
       <NavBar />
-      <div className="projects">
-        <h3>Some Frontend Projects</h3>
-        <div className="project_container">
+      <div className="my-16 p-4">
+        <h3 className="text-2xl text-center tracking-wider mb-3 text-gray-600  pb-3">
+          Some Frontend Projects
+        </h3>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-10 mt-4">
           {projectData.map((p) => {
             return (
               <Project

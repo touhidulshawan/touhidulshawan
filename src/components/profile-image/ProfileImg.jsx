@@ -1,10 +1,14 @@
 import React from "react";
-import "./ProfileImg.scss";
 
-import img from "../../assets/img/portfolio_img.jpg";
+// import img from "../../assets/img/portfolio_img.jpg";
+import img from "../../assets/img/programmer.gif";
 
 const ProfileImg = () => (
-  <img className="portfolio__img" src={img} alt="portfolio img" />
+  <img
+    className=" h-full w-full object-cover rounded-md"
+    src={img}
+    alt="portfolio img"
+  />
 );
 
 export default ProfileImg;
