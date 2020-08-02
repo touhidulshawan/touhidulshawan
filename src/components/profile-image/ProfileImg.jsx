@@ -1,6 +1,4 @@
 import React from "react";
-
-// import img from "../../assets/img/portfolio_img.jpg";
 import img from "../../assets/img/programmer.gif";
 
 const ProfileImg = () => (

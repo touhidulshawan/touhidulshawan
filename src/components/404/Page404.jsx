@@ -5,8 +5,8 @@ import { TiArrowBack } from "react-icons/ti";
 
 function Page404() {
   return (
-    <section className="error-section">
-      <div className="fImg_container">
+    <section className="">
+      <div className="">
         <object data={img404} type="image/svg+xml">
           404 Page Image
         </object>
