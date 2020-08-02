@@ -7,26 +7,38 @@ import Projects from "./containers/projects/Projects";
 import Skills from "./containers/skills/Skills";
 import Reviews from "./containers/client-reviews/ClientReviews";
 import Page404 from "./components/404/Page404";
+import Aux from "./components/hoc/Aux";
+
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles } from "./components/darkMode/globalStyles";
+import { lightTheme, darkTheme } from "./components/darkMode/theme";
+import { useDarkMode } from "./components/darkMode/useDarkMode";
 
 const App = () => {
+  const [theme, themeToggler] = useDarkMode();
+  const themeMode = theme === "light" ? lightTheme : darkTheme;
+
   return (
-    <main>
-      <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/projects" exact>
-          <Projects />
-        </Route>
-        <Route path="/skills" exact>
-          <Skills />
-        </Route>
-        <Route path="/reviews" exact>
-          <Reviews />
-        </Route>
-        <Route component={Page404} />
-      </Switch>
-    </main>
+    <ThemeProvider theme={themeMode}>
+      <Aux>
+        <GlobalStyles />
+        <Switch>
+          <Route path="/" exact>
+            <Home theme={theme} themeToggler={themeToggler} />
+          </Route>
+          <Route path="/projects" exact>
+            <Projects theme={theme} themeToggler={themeToggler} />
+          </Route>
+          <Route path="/skills" exact>
+            <Skills theme={theme} themeToggler={themeToggler} />
+          </Route>
+          <Route path="/reviews" exact>
+            <Reviews theme={theme} themeToggler={themeToggler} />
+          </Route>
+          <Route component={Page404} />
+        </Switch>
+      </Aux>
+    </ThemeProvider>
   );
 };
 

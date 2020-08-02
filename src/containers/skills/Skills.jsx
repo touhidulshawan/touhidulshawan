@@ -14,14 +14,14 @@ import Skill from "./Skill";
 import Aux from "../../components/hoc/Aux";
 import NavBar from "../../components/navBar/navBar";
 
-const Projects = () => {
+const Projects = (props) => {
   useEffect(() => {
     document.title = "Skills";
   });
 
   return (
     <Aux>
-      <NavBar />
+      <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
       <div className="my-16 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-5 ">
         <Skill icon={<FaHtml5 />} skillText="html" txtColor="red-600" />
         <Skill icon={<FaCss3Alt />} skillText="css/scss" txtColor="blue-600" />

@@ -5,14 +5,14 @@ import Bio from "../../components/bio/Bio";
 import Aux from "../../components/hoc/Aux";
 import NavBar from "../../components/navBar/navBar";
 
-const Home = () => {
+const Home = (props) => {
   //set title
   useEffect(() => {
     document.title = "Touhidul Shawan";
   });
   return (
     <Aux>
-      <NavBar />
+      <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
       <div className="lg:flex lg:justify-center lg:items-center container m-auto lg:mt-20">
         <div className=" flex flex-col-reverse items-center lg:items-start text-center lg:grid lg:grid-cols-3 lg:min-h-3/6 pt-20 gap-10">
           <div className="col-span-2 w-2/3 ">

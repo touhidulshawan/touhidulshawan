@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import FullScreenNav from "./FullScreenNav";
 import SmallScreenNav from "./SmallScreenNav";
 
-const NavBar = () => {
+const NavBar = (props) => {
   const [width, setWidth] = useState(null);
   useEffect(() => {
     let w = window.innerWidth;
@@ -13,9 +13,13 @@ const NavBar = () => {
   }, []);
 
   if (width) {
-    return <SmallScreenNav />;
+    return (
+      <SmallScreenNav theme={props.theme} toggleTheme={props.toggleTheme} />
+    );
   } else {
-    return <FullScreenNav />;
+    return (
+      <FullScreenNav theme={props.theme} toggleTheme={props.toggleTheme} />
+    );
   }
 };
 

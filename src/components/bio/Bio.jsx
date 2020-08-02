@@ -5,7 +5,7 @@ import Contact from "../contact/Contact";
 const Bio = () => {
   return (
     <div className="flex justify-start flex-col">
-      <p className="tracking-wide text-left text-gray-800 leading-loose text-lg pb-3">
+      <p className="tracking-wide text-left  leading-loose text-lg pb-3">
         <span className="text-3xl">Hi</span>, I am{" "}
         <span className="uppercase text-purple-600">Touhidul Shawan</span>, a
         self-taught Web Developer and a Linux lover. Currently I am a frontend

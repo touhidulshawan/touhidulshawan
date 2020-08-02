@@ -6,7 +6,7 @@ import Project from "./ Project";
 import Aux from "../../components/hoc/Aux";
 import NavBar from "../../components/navBar/navBar";
 
-const Projects = () => {
+const Projects = (props) => {
   const [projectData] = useState(ProjectData);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Projects = () => {
   });
   return (
     <Aux>
-      <NavBar />
+      <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
       <div className="my-16 p-4">
         <h3 className="text-2xl text-center tracking-wider mb-3 text-gray-600  pb-3">
           Some Frontend Projects

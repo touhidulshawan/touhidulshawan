@@ -2,15 +2,29 @@ import React from "react";
 
 import NavItem from "../navItem/NavItem";
 import { AiFillGithub } from "react-icons/ai";
-
 import { FiSun } from "react-icons/fi";
+import { BsMoon } from "react-icons/bs";
 
-const FullScreenNav = () => {
+const FullScreenNav = (props) => {
   return (
-    <nav className="bg-white shadow-sm border-b text-gray-500 p-4 fixed top-0 left-0 w-full ">
+    <nav
+      className={`${
+        props.theme === "light" ? "bg-white" : "bg-gray-900"
+      } shadow-sm border-b text-gray-500 p-4 fixed top-0 left-0 w-full `}
+    >
       <div className="container md:flex md:justify-between md:items-center">
         <div className="ml-6">
-          <FiSun className="text-2xl text-red-500 cursor-pointer" />
+          {props.theme === "light" ? (
+            <FiSun
+              className="text-2xl text-red-500 cursor-pointer"
+              onClick={props.toggleTheme}
+            />
+          ) : (
+            <BsMoon
+              className="text-2xl text-gray-200 cursor-pointer"
+              onClick={props.toggleTheme}
+            />
+          )}
         </div>
         <ul className="flex md:justify-end md:items-center ">
           <NavItem className="mr-6 uppercase" link="/" linkName="Home" />

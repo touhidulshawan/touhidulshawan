@@ -8,7 +8,7 @@ import NavBar from "../../components/navBar/navBar";
 
 import { AiOutlineUser } from "react-icons/ai";
 
-const ClientReviews = () => {
+const ClientReviews = (props) => {
   const [reviews] = useState(Reviews);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const ClientReviews = () => {
 
   return (
     <Aux>
-      <NavBar />
+      <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
       <div className=" container mt-24 pt-5 md:my-16 md:pt-4 lg:my-20 m-auto">
         <h3 className=" mb-4 text-xl  text-gray-500  text-center">
           Here are some reviews from my clients in Fiverr
