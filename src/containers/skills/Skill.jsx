@@ -2,15 +2,9 @@ import React from "react";
 
 const Skill = (props) => {
   return (
-    <div className=" bg-gray-100 shadow-xs flex flex-col justify-center  items-center rounded-sm">
-      <span className={`text-6xl text-${props.txtColor} mb-2 p-3`}>
-        {props.icon}
-      </span>
-      <p
-        className={`capitalize w-full p-1 text-center bg-${props.txtColor} text-gray-100`}
-      >
-        {props.skillText}
-      </p>
+    <div className=" w-32 h-32 m-auto flex flex-col rounded-full  justify-center items-center p-4">
+      <span className="text-4xl text-gray-500  mb-2">{props.icon}</span>
+      <p className="capitalize  text-center text-blue-600">{props.skillText}</p>
     </div>
   );
 };

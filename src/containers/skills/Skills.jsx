@@ -22,32 +22,16 @@ const Projects = (props) => {
   return (
     <Aux>
       <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
-      <div className="my-16 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-5 ">
-        <Skill icon={<FaHtml5 />} skillText="html" txtColor="red-600" />
-        <Skill icon={<FaCss3Alt />} skillText="css/scss" txtColor="blue-600" />
-        <Skill
-          icon={<FaCss3Alt />}
-          skillText="tailwindcss"
-          txtColor="teal-400"
-        />
-        <Skill
-          icon={<FaBootstrap />}
-          skillText="bootstrap"
-          txtColor="purple-700"
-        />
-        <Skill
-          icon={<DiJavascript1 />}
-          skillText="javascript"
-          txtColor="yellow-400"
-        />
-        <Skill icon={<FaReact />} skillText="react" txtColor="indigo-500" />
-        <Skill icon={<FaNodeJs />} skillText="nodejs" txtColor="green-600" />
-        <Skill icon={<DiGit />} skillText="git" txtColor="red-600" />
-        <Skill
-          icon={<BsFillTerminalFill />}
-          skillText="Command Line"
-          txtColor="gray-600"
-        />
+      <div className="my-16 container m-auto md:w-2/3 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-10 ">
+        <Skill icon={<FaHtml5 />} skillText="html" />
+        <Skill icon={<FaCss3Alt />} skillText="css/scss" />
+        <Skill icon={<FaCss3Alt />} skillText="tailwindcss" />
+        <Skill icon={<FaBootstrap />} skillText="bootstrap" />
+        <Skill icon={<DiJavascript1 />} skillText="javascript" />
+        <Skill icon={<FaReact />} skillText="react" />
+        <Skill icon={<FaNodeJs />} skillText="nodejs" />
+        <Skill icon={<DiGit />} skillText="git" />
+        <Skill icon={<BsFillTerminalFill />} skillText="Command Line" />
       </div>
     </Aux>
   );

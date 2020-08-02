@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "build-css": "postcss ./tailwind.css -o src/index.css",
+    "build-css": "postcss src/tailwind.css -o src/index.css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

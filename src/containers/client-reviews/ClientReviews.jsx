@@ -41,7 +41,7 @@ const ClientReviews = (props) => {
             rel="noopener noreferrer"
             className=" text-blue-500"
           >
-            <span className="flex justify-center items-center">
+            <span className="flex justify-center items-center mb-3">
               <AiOutlineUser className="text-xl mr-2" />
               <span>See Fiverr Profile</span>
             </span>
