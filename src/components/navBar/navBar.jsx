@@ -6,7 +6,6 @@ const NavBar = (props) => {
   const [width, setWidth] = useState(null);
   useEffect(() => {
     let w = window.innerWidth;
-    console.log(w);
     if (w <= 640) {
       setWidth(w);
     }
