@@ -23,7 +23,7 @@ const Bio = () => {
             Fiverr
           </a>
         </span>
-        . I am looking for opportunities to work as a Web Developer.
+        . I am looking for opportunities to work full-time as a Web Developer.
       </p>
       <Contact />
     </div>

@@ -1,47 +1,22 @@
-import React from "react";
-
-import NavItem from "../navItem/NavItem";
-import { AiFillGithub } from "react-icons/ai";
-
-import { FiSun } from "react-icons/fi";
+import React, { useState, useEffect } from "react";
+import FullScreenNav from "./FullScreenNav";
+import SmallScreenNav from "./SmallScreenNav";
 
 const NavBar = () => {
-  return (
-    <nav className="bg-white shadow-sm border-b text-gray-500 p-4 fixed top-0 left-0 w-full ">
-      <div className="container md:flex md:justify-between md:items-center">
-        <div className="ml-6">
-          <FiSun className="text-2xl text-red-500 cursor-pointer" />
-        </div>
-        <ul className="flex md:justify-end md:items-center">
-          <NavItem className="mr-6 uppercase" link="/" linkName="Home" />
-          <NavItem
-            className="mr-6 uppercase"
-            link="/projects"
-            linkName="Projects"
-          />
-          <NavItem
-            className="mr-6 uppercase"
-            link="/skills"
-            linkName="Skills"
-          />
-          <NavItem
-            className="mr-6 uppercase"
-            link="/reviews"
-            linkName="Reviews"
-          />
-        </ul>
-        <div>
-          <a
-            href="https://github.com/touhidulshawan"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillGithub className="text-2xl text-gray-500" />
-          </a>
-        </div>
-      </div>
-    </nav>
-  );
+  const [width, setWidth] = useState(null);
+  useEffect(() => {
+    let w = window.innerWidth;
+    console.log(w);
+    if (w <= 640) {
+      setWidth(w);
+    }
+  }, []);
+
+  if (width) {
+    return <SmallScreenNav />;
+  } else {
+    return <FullScreenNav />;
+  }
 };
 
 export default NavBar;
