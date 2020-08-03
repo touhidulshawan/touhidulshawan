@@ -13,7 +13,7 @@ const Project = (props) => {
           href={props.sourceLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex justify-center items-center  py-2 px-4 text-sm   text-gray-800 mb-2 bg-purple-400 lg:bg-transparent lg:text-gray-500 rounded-full lg:mr-3 lg:hover:text-purple-400 transition ease-in-out duration-500"
+          className="flex justify-center items-center  py-2 px-4 text-sm   text-gray-800 mb-2 bg-purple-400 lg:bg-transparent lg:text-gray-600 rounded-full lg:mr-3 lg:hover:text-purple-400 transition ease-in-out duration-500"
         >
           <AiFillGithub className="mr-2 text-xl" />
           <span>View Code</span>
@@ -22,7 +22,7 @@ const Project = (props) => {
           href={props.liveLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex justify-center items-center  p-2 text-sm text-gray-800 mb-2 bg-gray-400 lg:bg-transparent lg:text-gray-500 rounded-full lg:hover:text-blue-400 transition ease-in-out duration-500"
+          className="flex justify-center items-center  p-2 text-sm text-gray-800 mb-2 bg-gray-400 lg:bg-transparent lg:text-gray-600 rounded-full lg:hover:text-blue-400 transition ease-in-out duration-500"
         >
           <AiFillEye className="mr-2 text-2xl" />
           <span>Live Preview</span>

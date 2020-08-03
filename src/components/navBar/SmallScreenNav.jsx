@@ -4,7 +4,7 @@ import NavItem from "../navItem/NavItem";
 import { AiFillGithub } from "react-icons/ai";
 import { FiSun } from "react-icons/fi";
 import { RiMenu3Line } from "react-icons/ri";
-import { BsMoon } from "react-icons/bs";
+import { RiMoonClearLine } from "react-icons/ri";
 
 const SmallScreenNav = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -19,12 +19,12 @@ const SmallScreenNav = (props) => {
         <div className="ml-6">
           {props.theme === "light" ? (
             <FiSun
-              className="text-2xl text-red-500 cursor-pointer"
+              className="text-2xl text-red-600 cursor-pointer"
               onClick={props.toggleTheme}
             />
           ) : (
-            <BsMoon
-              className="text-2xl text-gray-200 cursor-pointer"
+            <RiMoonClearLine
+              className="text-2xl text-pink-500 cursor-pointer"
               onClick={props.toggleTheme}
             />
           )}
@@ -35,7 +35,7 @@ const SmallScreenNav = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiFillGithub className="text-2xl text-gray-500" />
+            <AiFillGithub className="text-2xl text-gray-600" />
           </a>
           <button
             onClick={() => setToggleMenu(!toggleMenu)}
