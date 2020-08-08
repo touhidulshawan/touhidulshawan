@@ -5,7 +5,7 @@ import { AiFillEye } from "react-icons/ai";
 
 const Project = (props) => {
   return (
-    <div className="p-3 shadow-outline rounded-md ">
+    <div className="p-3 shadow-outline rounded-md">
       <h4 className="text-lg text-teal-500 pb-4">{props.title}</h4>
       <p className="pb-4">{props.description}</p>
       <div className="mt-4 flex flex-col lg:flex-row">
