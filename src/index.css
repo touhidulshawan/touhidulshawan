@@ -1042,6 +1042,18 @@ img {
   color: rgba(214, 188, 250, var(--text-opacity));
 }
 
+.text-purple-400{
+  --text-opacity: 1;
+  color: #b794f4;
+  color: rgba(183, 148, 244, var(--text-opacity));
+}
+
+.text-purple-500{
+  --text-opacity: 1;
+  color: #9f7aea;
+  color: rgba(159, 122, 234, var(--text-opacity));
+}
+
 .text-purple-600{
   --text-opacity: 1;
   color: #805ad5;
