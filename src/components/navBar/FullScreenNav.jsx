@@ -51,7 +51,7 @@ const FullScreenNav = (props) => {
             rel="noopener noreferrer"
           >
             <AiFillGithub
-              className={`text-2xl text-gray-${
+              className={`text-2xl animate-pulse text-gray-${
                 props.theme === "light" ? "600" : "100"
               } hover:shadow-outline rounded-full transition ease-out duration-500`}
             />
