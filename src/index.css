@@ -30,19 +30,10 @@ body {
  * Render the `main` element consistently in IE.
  */
 
-main {
-  display: block;
-}
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /* Grouping content
    ========================================================================== */
@@ -100,22 +91,6 @@ small {
  * all browsers.
  */
 
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
 /* Embedded content
    ========================================================================== */
 
@@ -165,8 +140,7 @@ button { /* 1 */
  */
 
 button,
-[type="button"],
-[type="reset"] {
+[type="button"] {
   -webkit-appearance: button;
 }
 
@@ -175,8 +149,7 @@ button,
  */
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -186,18 +159,13 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring {
+[type="button"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
-
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -244,10 +212,6 @@ fieldset {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 
-details {
-  display: block;
-}
-
 /*
  * Add the correct display in all browsers.
  */
@@ -282,7 +246,6 @@ template {
  */
 
 
-h1,
 h3,
 h4,
 p {
@@ -302,11 +265,6 @@ button {
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
-}
-
-fieldset {
-  margin: 0;
-  padding: 0;
 }
 
 
@@ -389,7 +347,7 @@ button {
   cursor: pointer;
 }
 
-h1,
+
 h3,
 h4 {
   font-size: inherit;
@@ -537,34 +495,10 @@ img {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
-.bg-gray-100{
-  --bg-opacity: 1;
-  background-color: #f7fafc;
-  background-color: rgba(247, 250, 252, var(--bg-opacity));
-}
-
-.bg-gray-200{
-  --bg-opacity: 1;
-  background-color: #edf2f7;
-  background-color: rgba(237, 242, 247, var(--bg-opacity));
-}
-
-.bg-gray-300{
-  --bg-opacity: 1;
-  background-color: #e2e8f0;
-  background-color: rgba(226, 232, 240, var(--bg-opacity));
-}
-
 .bg-gray-400{
   --bg-opacity: 1;
   background-color: #cbd5e0;
   background-color: rgba(203, 213, 224, var(--bg-opacity));
-}
-
-.bg-gray-600{
-  --bg-opacity: 1;
-  background-color: #718096;
-  background-color: rgba(113, 128, 150, var(--bg-opacity));
 }
 
 .bg-gray-900{
@@ -601,10 +535,6 @@ img {
   --border-opacity: 1;
   border-color: #805ad5;
   border-color: rgba(128, 90, 213, var(--border-opacity));
-}
-
-.rounded-sm{
-  border-radius: 0.125rem;
 }
 
 .rounded-md{
@@ -675,20 +605,8 @@ img {
   justify-content: space-between;
 }
 
-.h-20{
-  height: 5rem;
-}
-
-.h-24{
-  height: 6rem;
-}
-
 .h-32{
   height: 8rem;
-}
-
-.h-48{
-  height: 12rem;
 }
 
 .h-64{
@@ -721,10 +639,6 @@ img {
 
 .text-4xl{
   font-size: 2.25rem;
-}
-
-.text-6xl{
-  font-size: 4rem;
 }
 
 .leading-loose{
@@ -846,10 +760,6 @@ img {
   position: fixed;
 }
 
-.relative{
-  position: relative;
-}
-
 .top-0{
   top: 0;
 }
@@ -858,16 +768,8 @@ img {
   left: 0;
 }
 
-.shadow-xs{
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-}
-
 .shadow-sm{
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.shadow-md{
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .shadow-outline{
@@ -886,24 +788,6 @@ img {
   text-align: center;
 }
 
-.text-gray-100{
-  --text-opacity: 1;
-  color: #f7fafc;
-  color: rgba(247, 250, 252, var(--text-opacity));
-}
-
-.text-gray-200{
-  --text-opacity: 1;
-  color: #edf2f7;
-  color: rgba(237, 242, 247, var(--text-opacity));
-}
-
-.text-gray-400{
-  --text-opacity: 1;
-  color: #cbd5e0;
-  color: rgba(203, 213, 224, var(--text-opacity));
-}
-
 .text-gray-500{
   --text-opacity: 1;
   color: #a0aec0;
@@ -916,22 +800,10 @@ img {
   color: rgba(113, 128, 150, var(--text-opacity));
 }
 
-.text-gray-700{
-  --text-opacity: 1;
-  color: #4a5568;
-  color: rgba(74, 85, 104, var(--text-opacity));
-}
-
 .text-gray-800{
   --text-opacity: 1;
   color: #2d3748;
   color: rgba(45, 55, 72, var(--text-opacity));
-}
-
-.text-red-500{
-  --text-opacity: 1;
-  color: #f56565;
-  color: rgba(245, 101, 101, var(--text-opacity));
 }
 
 .text-red-600{
@@ -946,30 +818,6 @@ img {
   color: rgba(237, 137, 54, var(--text-opacity));
 }
 
-.text-orange-700{
-  --text-opacity: 1;
-  color: #c05621;
-  color: rgba(192, 86, 33, var(--text-opacity));
-}
-
-.text-yellow-400{
-  --text-opacity: 1;
-  color: #f6e05e;
-  color: rgba(246, 224, 94, var(--text-opacity));
-}
-
-.text-yellow-700{
-  --text-opacity: 1;
-  color: #b7791f;
-  color: rgba(183, 121, 31, var(--text-opacity));
-}
-
-.text-teal-400{
-  --text-opacity: 1;
-  color: #4fd1c5;
-  color: rgba(79, 209, 197, var(--text-opacity));
-}
-
 .text-teal-500{
   --text-opacity: 1;
   color: #38b2ac;
@@ -980,18 +828,6 @@ img {
   --text-opacity: 1;
   color: #319795;
   color: rgba(49, 151, 149, var(--text-opacity));
-}
-
-.text-teal-700{
-  --text-opacity: 1;
-  color: #2c7a7b;
-  color: rgba(44, 122, 123, var(--text-opacity));
-}
-
-.text-blue-300{
-  --text-opacity: 1;
-  color: #90cdf4;
-  color: rgba(144, 205, 244, var(--text-opacity));
 }
 
 .text-blue-400{
@@ -1012,18 +848,6 @@ img {
   color: rgba(49, 130, 206, var(--text-opacity));
 }
 
-.text-indigo-300{
-  --text-opacity: 1;
-  color: #a3bffa;
-  color: rgba(163, 191, 250, var(--text-opacity));
-}
-
-.text-indigo-500{
-  --text-opacity: 1;
-  color: #667eea;
-  color: rgba(102, 126, 234, var(--text-opacity));
-}
-
 .text-indigo-600{
   --text-opacity: 1;
   color: #5a67d8;
@@ -1036,40 +860,10 @@ img {
   color: rgba(250, 245, 255, var(--text-opacity));
 }
 
-.text-purple-300{
-  --text-opacity: 1;
-  color: #d6bcfa;
-  color: rgba(214, 188, 250, var(--text-opacity));
-}
-
-.text-purple-400{
-  --text-opacity: 1;
-  color: #b794f4;
-  color: rgba(183, 148, 244, var(--text-opacity));
-}
-
-.text-purple-500{
-  --text-opacity: 1;
-  color: #9f7aea;
-  color: rgba(159, 122, 234, var(--text-opacity));
-}
-
 .text-purple-600{
   --text-opacity: 1;
   color: #805ad5;
   color: rgba(128, 90, 213, var(--text-opacity));
-}
-
-.text-purple-900{
-  --text-opacity: 1;
-  color: #44337a;
-  color: rgba(68, 51, 122, var(--text-opacity));
-}
-
-.text-pink-300{
-  --text-opacity: 1;
-  color: #fbb6ce;
-  color: rgba(251, 182, 206, var(--text-opacity));
 }
 
 .text-pink-400{
@@ -1082,12 +876,6 @@ img {
   --text-opacity: 1;
   color: #ed64a6;
   color: rgba(237, 100, 166, var(--text-opacity));
-}
-
-.text-pink-600{
-  --text-opacity: 1;
-  color: #d53f8c;
-  color: rgba(213, 63, 140, var(--text-opacity));
 }
 
 .hover\:text-gray-700:hover{
@@ -1124,22 +912,6 @@ img {
   letter-spacing: 0.05em;
 }
 
-.visible{
-  visibility: visible;
-}
-
-.w-2{
-  width: 0.5rem;
-}
-
-.w-20{
-  width: 5rem;
-}
-
-.w-24{
-  width: 6rem;
-}
-
 .w-32{
   width: 8rem;
 }
@@ -1165,11 +937,6 @@ img {
   gap: 1rem;
 }
 
-.gap-5{
-  grid-gap: 1.25rem;
-  gap: 1.25rem;
-}
-
 .gap-10{
   grid-gap: 2.5rem;
   gap: 2.5rem;
@@ -1189,17 +956,6 @@ img {
 
 .col-span-2{
   grid-column: span 2 / span 2;
-}
-
-.transform{
-  --transform-translate-x: 0;
-  --transform-translate-y: 0;
-  --transform-rotate: 0;
-  --transform-skew-x: 0;
-  --transform-skew-y: 0;
-  --transform-scale-x: 1;
-  --transform-scale-y: 1;
-  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
 }
 
 .transition-all{
@@ -1224,10 +980,6 @@ img {
 
 .duration-1000{
   transition-duration: 1000ms;
-}
-
-.animate-ping{
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .animate-pulse{
