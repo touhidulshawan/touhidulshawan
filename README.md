@@ -20,6 +20,7 @@
 <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
 <img src="https://img.icons8.com/color/48/000000/sass.png"/>
 <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+<img src="https://img.icons8.com/color/48/000000/typescript.png"/>
 <img src="https://img.icons8.com/color/48/000000/react-native.png"/>
 </p>
 
