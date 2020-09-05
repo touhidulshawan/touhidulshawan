@@ -16,12 +16,12 @@ const FullScreenNav = (props) => {
         <div className="ml-6">
           {props.theme === "light" ? (
             <FiSun
-              className="text-2xl text-red-600 cursor-pointer"
+              className="text-2xl text-red-600 cursor-pointer animate-pulse"
               onClick={props.toggleTheme}
             />
           ) : (
             <RiMoonClearLine
-              className="text-2xl text-pink-500 cursor-pointer"
+              className="text-2xl text-pink-500 cursor-pointer animate-pulse"
               onClick={props.toggleTheme}
             />
           )}

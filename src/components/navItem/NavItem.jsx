@@ -8,7 +8,7 @@ const NavItem = (props) => {
         activeStyle={{ letterSpacing: "0.22rem", color: "#3182ce" }}
         to={props.link}
         exact
-        className={`${props.className} text-pink-400 hover:text-blue-600  transition-all ease-in-out duration-1000 p-1 `}
+        className={`${props.className} text-pink-400 hover:text-blue-600  transition-all ease-in-out duration-1000 p-1  `}
       >
         {props.linkName}
       </NavLink>

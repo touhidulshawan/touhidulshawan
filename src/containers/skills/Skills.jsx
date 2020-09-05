@@ -4,6 +4,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiGit } from "react-icons/di";
@@ -28,6 +29,7 @@ const Projects = (props) => {
         <Skill icon={<FaCss3Alt />} skillText="tailwindcss" />
         <Skill icon={<FaBootstrap />} skillText="bootstrap" />
         <Skill icon={<DiJavascript1 />} skillText="javascript" />
+        <Skill icon={<SiTypescript />} skillText="typescript" />
         <Skill icon={<FaReact />} skillText="react" />
         <Skill icon={<FaNodeJs />} skillText="nodejs" />
         <Skill icon={<DiGit />} skillText="git" />
