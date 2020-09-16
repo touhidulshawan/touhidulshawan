@@ -9,8 +9,8 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiGit } from "react-icons/di";
 import { BsFillTerminalFill } from "react-icons/bs";
-import { SiWindows } from "react-icons/si";
 import { SiLinux } from "react-icons/si";
+import { SiVim } from "react-icons/si";
 
 import Skill from "./Skill";
 
@@ -36,8 +36,8 @@ const Projects = (props) => {
         <Skill icon={<FaNodeJs />} skillText="nodejs" />
         <Skill icon={<DiGit />} skillText="git" />
         <Skill icon={<BsFillTerminalFill />} skillText="Command Line" />
+        <Skill icon={<SiVim />} skillText="Vim" />
         <Skill icon={<SiLinux />} skillText="Linux" />
-        <Skill icon={<SiWindows />} skillText="Windows" />
       </div>
     </Aux>
   );
