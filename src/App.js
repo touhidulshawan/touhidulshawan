@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 import Home from "./containers/home/Home";
 import Projects from "./containers/projects/Projects";
@@ -35,7 +35,10 @@ const App = () => {
           <Route path="/reviews" exact>
             <Reviews theme={theme} themeToggler={themeToggler} />
           </Route>
-          <Route component={Page404} />
+          <Route path="/page-not-found">
+            <Page404 />
+          </Route>
+          <Redirect to="/page-not-found" />
         </Switch>
       </Aux>
     </ThemeProvider>
