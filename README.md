@@ -8,6 +8,18 @@
 
 ---
 
+<a href="https://github.com/KonradLinkowski">
+    <img align="" height='100%' src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0000&text_color=2f80ed&count_private=true">
+    <img align="" height='100%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=0000&text_color=2f80ed">
+  </a>
+</p>
+
+---
+
+![trophies](https://github-profile-trophy.vercel.app/?username=touhidulshawan&margin-w=38)
+
+---
+
 #### whoami
 > I am a  frontend web developer. I mainly work with `React`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Frontend Web Developer.
 
