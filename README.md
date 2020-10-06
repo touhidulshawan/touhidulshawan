@@ -66,7 +66,7 @@ Here some reviews from my client in [Fiverr](https://www.fiverr.com/frontwebdev)
 ---
 
 #### Operating System  that I use 💻
-> Arch Linux with KDE 🐧
+> Arch Linux with Awesome Window Manager 🐧
 
 
 [image]:https://github.com/touhidulShawan/touhidulshawan/blob/master/programmer.gif
