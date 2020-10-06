@@ -34,6 +34,7 @@
 <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
 <img src="https://img.icons8.com/color/48/000000/typescript.png"/>
 <img src="https://img.icons8.com/color/48/000000/react-native.png"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vim.svg" width="48" height="48" />   
 <img src="https://img.icons8.com/color/48/000000/linux.png"/>
 </p>
 
