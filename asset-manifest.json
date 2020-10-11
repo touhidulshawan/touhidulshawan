@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/touhidulshawan/static/css/main.d837361a.chunk.css",
+    "main.js": "/touhidulshawan/static/js/main.42ccd114.chunk.js",
+    "main.js.map": "/touhidulshawan/static/js/main.42ccd114.chunk.js.map",
+    "runtime-main.js": "/touhidulshawan/static/js/runtime-main.7006cb8c.js",
+    "runtime-main.js.map": "/touhidulshawan/static/js/runtime-main.7006cb8c.js.map",
+    "static/js/2.55b60b13.chunk.js": "/touhidulshawan/static/js/2.55b60b13.chunk.js",
+    "static/js/2.55b60b13.chunk.js.map": "/touhidulshawan/static/js/2.55b60b13.chunk.js.map",
+    "index.html": "/touhidulshawan/index.html",
+    "precache-manifest.1219ab715f395666874d0a0cbb4928fb.js": "/touhidulshawan/precache-manifest.1219ab715f395666874d0a0cbb4928fb.js",
+    "service-worker.js": "/touhidulshawan/service-worker.js",
+    "static/css/main.d837361a.chunk.css.map": "/touhidulshawan/static/css/main.d837361a.chunk.css.map",
+    "static/js/2.55b60b13.chunk.js.LICENSE.txt": "/touhidulshawan/static/js/2.55b60b13.chunk.js.LICENSE.txt",
+    "static/media/404.svg": "/touhidulshawan/static/media/404.a5a58a94.svg",
+    "static/media/programmer.webp": "/touhidulshawan/static/media/programmer.e9149a64.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7006cb8c.js",
+    "static/js/2.55b60b13.chunk.js",
+    "static/css/main.d837361a.chunk.css",
+    "static/js/main.42ccd114.chunk.js"
+  ]
+}
