@@ -15,10 +15,10 @@
   },
   {
     "id": "r#3",
-    "projectTitle": "Shopping Cart",
-    "projectDes": "Shopping Cart that represent shopping cart from e-commerce website made with react",
-    "sourceLink": "https://github.com/touhidulShawan/shopping_cart",
-    "liveLink": "https://touhidulshawan.github.io/shopping_cart/"
+    "projectTitle": "Dark Mode Toggler",
+    "projectDes": "Reusable Dark Mode Toggler component",
+    "sourceLink": "https://github.com/touhidulShawan/dark_mode_toggler/",
+    "liveLink": "https://touhidulshawan.github.io/dark_mode_toggler/"
   },
 
   {
