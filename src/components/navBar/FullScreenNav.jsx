@@ -43,11 +43,6 @@ const FullScreenNav = (props) => {
             link="/reviews"
             linkName="Reviews"
           />
-          <NavItem
-            className="mr-6 uppercase"
-            link="/contact"
-            linkName="Contact"
-          />
         </ul>
         <div className="flex items-center">
           <a

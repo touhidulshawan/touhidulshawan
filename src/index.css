@@ -18626,6 +18626,11 @@ h6 {
   font-family: "Commissioner", sans-serif;
 }
 
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

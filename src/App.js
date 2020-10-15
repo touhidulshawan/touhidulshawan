@@ -6,7 +6,6 @@ import Home from "./containers/home/Home";
 import Projects from "./containers/projects/Projects";
 import Skills from "./containers/skills/Skills";
 import Reviews from "./containers/client-reviews/ClientReviews";
-import Contact from "./containers/contact/Contact";
 import Page404 from "./components/404/Page404";
 import Aux from "./components/hoc/Aux";
 
@@ -35,9 +34,6 @@ const App = () => {
           </Route>
           <Route path="/reviews" exact>
             <Reviews theme={theme} themeToggler={themeToggler} />
-          </Route>
-          <Route path="/contact" exact>
-            <Contact theme={theme} themeToggler={themeToggler} />
           </Route>
           <Route path="/page-not-found">
             <Page404 />

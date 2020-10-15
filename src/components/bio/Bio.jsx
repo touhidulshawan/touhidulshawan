@@ -24,7 +24,20 @@ const Bio = () => {
           </a>
         </span>
         . I am looking for opportunities to work full-time as a Web Developer.
+        <span>
+          <span role="img" aria-labelledby="pointerEmoji">
+            {" "}
+            👉{" "}
+          </span>
+          <a
+            href="mailto:touhidulshawan@gmail.com"
+            className="text-bg-600 border-b-4 border-pink-500"
+          >
+            touhidulshawan@gmail.com
+          </a>
+        </span>
       </p>
+
       <Contact />
     </div>
   );
