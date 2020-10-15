@@ -19,7 +19,7 @@ const ClientReviews = (props) => {
     <Aux>
       <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
       <div className=" container mt-24 pt-5 md:my-16 md:pt-4 lg:my-20 m-auto">
-        <h3 className=" mb-4 text-xl  text-orange-500  text-center">
+        <h3 className=" mb-4 text-2xl  text-orange-500  text-center border-b-2 pb-4">
           Here are some reviews from my clients in Fiverr
         </h3>
         <div className=" p-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-10">

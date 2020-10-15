@@ -62,6 +62,12 @@ const SmallScreenNav = (props) => {
           link="/reviews"
           linkName="Reviews"
         />
+
+        <NavItem
+          className="mr-6 uppercase"
+          link="/contact"
+          linkName="Contact"
+        />
       </ul>
     </nav>
   );

@@ -10,7 +10,7 @@ const FullScreenNav = (props) => {
     <nav
       className={`${
         props.theme === "light" ? "bg-white" : "bg-gray-900"
-      } shadow-sm border-b text-gray-500 p-4 fixed top-0 left-0 w-full `}
+      } shadow-sm  p-4 fixed top-0 left-0 w-full `}
     >
       <div className="container md:flex md:justify-between md:items-center">
         <div className="ml-6">
@@ -42,6 +42,11 @@ const FullScreenNav = (props) => {
             className="mr-6 uppercase"
             link="/reviews"
             linkName="Reviews"
+          />
+          <NavItem
+            className="mr-6 uppercase"
+            link="/contact"
+            linkName="Contact"
           />
         </ul>
         <div className="flex items-center">

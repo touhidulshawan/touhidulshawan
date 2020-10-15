@@ -1,19 +1,14 @@
 import React from "react";
 
-import { GrMail } from "react-icons/gr";
-
 const Contact = () => {
   return (
     <a
-      href="mailto:touhidulshawan@gmail.com"
+      href="https://www.fiverr.com/frontwebdev"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-sm bg-purple-600 text-purple-100 uppercase border  border-purple-600 w-48 p-4 rounded-md shadow-inline tracking-wide flex justify-center items-center mt-3 mb-4 hover:bg-purple-800 hover:shadow-outline transition ease-out duration-500"
+      className=" bg-purple-600 text-purple-100 uppercase border-b-8  border-pink-300 w-40 py-4 rounded-md shadow-inline tracking-wide flex justify-center items-center mt-3 mb-4 shadow-xl hover:translate-y-12 transition ease-out duration-500"
     >
-      <span className="text-lg mr-2">
-        <GrMail />
-      </span>
-      Contact Me
+      On Fiverr
     </a>
   );
 };

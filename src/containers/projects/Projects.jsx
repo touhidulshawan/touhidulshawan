@@ -16,7 +16,7 @@ const Projects = (props) => {
     <Aux>
       <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
       <div className="my-16 p-4">
-        <h3 className="text-2xl text-center tracking-wider mb-3 text-pink-500  pb-3">
+        <h3 className="text-2xl text-center tracking-wider mb-3 text-orange-600  pb-3 border-b-2">
           Some Frontend Projects
         </h3>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-10 mt-4">
