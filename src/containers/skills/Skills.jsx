@@ -25,7 +25,7 @@ const Projects = (props) => {
   return (
     <Aux>
       <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
-      <div className="mb-16 mt-20 container m-auto md:w-2/3 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-10 lg:border-2 lg:border-purple-600 shadow-lg rounded-sm">
+      <div className="mb-16 mt-20 container m-auto md:w-2/3 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-10 lg:border-2 lg:border-purple-600 lg:shadow-lg lg:rounded-sm">
         <Skill icon={<FaHtml5 />} skillText="html" />
         <Skill icon={<FaCss3Alt />} skillText="css/scss" />
         <Skill icon={<FaCss3Alt />} skillText="tailwindcss" />

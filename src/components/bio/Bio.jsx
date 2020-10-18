@@ -4,7 +4,7 @@ import Contact from "../contact/Contact";
 
 const Bio = () => {
   return (
-    <div className="flex justify-start flex-col">
+    <div className="flex justify-start items-start flex-col">
       <p className="tracking-widest text-left  leading-loose text-lg pb-3">
         <span className="text-3xl">Hi</span>, I am{" "}
         <span className="uppercase text-purple-600">Touhidul Shawan</span>, a
@@ -24,20 +24,17 @@ const Bio = () => {
           </a>
         </span>
         . I am looking for opportunities to work full-time as a Web Developer.
-        <span>
-          <span role="img" aria-labelledby="pointerEmoji">
-            {" "}
-            👉{" "}
-          </span>
-          <a
-            href="mailto:touhidulshawan@gmail.com"
-            className="text-bg-600 border-b-4 border-pink-500"
-          >
-            touhidulshawan@gmail.com
-          </a>
-        </span>
       </p>
 
+      <div className="mb-5">
+        <a
+          href="mailto:touhidulshawan@gmail.com"
+          className=" text-xl border-b-2 border-pink-500"
+        >
+          touhidulshawan@gmail.com
+        </a>
+      </div>
+      <hr />
       <Contact />
     </div>
   );
