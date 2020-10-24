@@ -19,9 +19,6 @@ const ClientReviews = (props) => {
     <Aux>
       <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
       <div className=" container mt-24 pt-5 md:my-16 md:pt-4 lg:my-20 m-auto">
-        <h3 className=" mb-4 text-2xl  text-orange-500  text-center border-b-2 pb-4">
-          Here are some reviews from my clients in Fiverr
-        </h3>
         <div className=" p-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-10">
           {reviews.map((r) => {
             return (
@@ -43,7 +40,7 @@ const ClientReviews = (props) => {
           >
             <span className="flex justify-center items-center mb-3">
               <AiOutlineUser className="text-xl mr-2" />
-              <span>See Fiverr Profile</span>
+              <span>See More on Fiverr</span>
             </span>
           </a>
         </div>

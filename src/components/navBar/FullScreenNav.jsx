@@ -9,8 +9,8 @@ const FullScreenNav = (props) => {
   return (
     <nav
       className={`${
-        props.theme === "light" ? "bg-white" : "bg-gray-900"
-      } shadow-sm  p-4 fixed top-0 left-0 w-full `}
+        props.theme === "light" ? "bg-gray-100" : "bg-gray-900"
+      } shadow-sm p-4 fixed top-0 left-0 w-full `}
     >
       <div className="container md:flex md:justify-between md:items-center">
         <div className="ml-6">

@@ -12,8 +12,8 @@ const SmallScreenNav = (props) => {
   return (
     <nav
       className={`${
-        props.theme === "light" ? "bg-white" : "bg-gray-900"
-      } shadow-sm border-b text-gray-500 p-4 fixed top-0 left-0 w-full `}
+        props.theme === "light" ? "bg-gray-100" : "bg-gray-900"
+      } shadow-sm  text-gray-500 p-4 fixed top-0 left-0 w-full `}
     >
       <div className="container flex justify-between items-center">
         <div className="ml-6">

@@ -17,6 +17,10 @@ export const useWindowWidth = () => {
     };
 
     window.addEventListener("resize", resizeListner);
+
+    return () => {
+      window.removeEventListener("resize", resizeListner);
+    };
   }, []);
   return width;
 };

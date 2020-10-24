@@ -5,10 +5,10 @@ const NavItem = (props) => {
   return (
     <li className="list-none">
       <NavLink
-        activeStyle={{ letterSpacing: "0.22rem", color: "#3182ce" }}
+        activeStyle={{ color: "#3182CE" }}
         to={props.link}
         exact
-        className={`${props.className} text-pink-400 hover:text-blue-600  transition-all ease-in-out duration-1000 p-1   `}
+        className={`${props.className} font-semibold tracking-wide text-gray-500 hover:text-pink-600  transition-all ease-in-out duration-1000 p-1   `}
       >
         {props.linkName}
       </NavLink>
