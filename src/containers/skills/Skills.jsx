@@ -6,9 +6,9 @@ import { FaBootstrap } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import { SiNextDotJs } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiGit } from "react-icons/di";
-import { BsFillTerminalFill } from "react-icons/bs";
 import { SiLinux } from "react-icons/si";
 import { SiVim } from "react-icons/si";
 
@@ -25,7 +25,7 @@ const Projects = (props) => {
   return (
     <Aux>
       <NavBar theme={props.theme} toggleTheme={props.themeToggler} />
-      <div className="mb-16 mt-20 container m-auto md:w-2/3 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-10 lg:border-2 lg:border-purple-600 lg:shadow-lg lg:rounded-sm">
+      <div className="mb-16 mt-24 container m-auto md:w-2/3 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-10 lg:border-2 lg:border-purple-600 lg:shadow-lg lg:rounded-sm">
         <Skill icon={<FaHtml5 />} skillText="html" />
         <Skill icon={<FaCss3Alt />} skillText="css/scss" />
         <Skill icon={<FaCss3Alt />} skillText="tailwindcss" />
@@ -33,9 +33,9 @@ const Projects = (props) => {
         <Skill icon={<DiJavascript1 />} skillText="javascript" />
         <Skill icon={<SiTypescript />} skillText="typescript" />
         <Skill icon={<FaReact />} skillText="react" />
+        <Skill icon={<SiNextDotJs />} skillText="nextjs" />
         <Skill icon={<FaNodeJs />} skillText="nodejs" />
         <Skill icon={<DiGit />} skillText="git" />
-        <Skill icon={<BsFillTerminalFill />} skillText="Command Line" />
         <Skill icon={<SiVim />} skillText="Vim" />
         <Skill icon={<SiLinux />} skillText="Linux" />
       </div>
