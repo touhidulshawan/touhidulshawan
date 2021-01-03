@@ -62,6 +62,14 @@ const SmallScreenNav = (props) => {
           link="/reviews"
           linkName="Reviews"
         />
+        <a
+          className="uppercase text-green-900 bg-green-200 text-sm font-bold tracking-wide border-2 border-green-300 p-2 mt-3 rounded hover:text-green-800 transition-all duration-300 ease-in-out"
+          href={require("../../assets/Touhidul_Shawan_CV.pdf")}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
       </ul>
     </nav>
   );

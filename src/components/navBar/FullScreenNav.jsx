@@ -1,5 +1,4 @@
 import React from "react";
-
 import NavItem from "../navItem/NavItem";
 import { AiFillGithub } from "react-icons/ai";
 import { FiSun } from "react-icons/fi";
@@ -43,6 +42,14 @@ const FullScreenNav = (props) => {
             link="/reviews"
             linkName="Reviews"
           />
+          <a
+            className="uppercase p-2 rounded bg-gray-800 text-gray-200 text-sm border-2 border-gray-200 font-bold tracking-wide hover:bg-gray-700 hover:text-gray-400 transition-all duration-300 ease-in-out"
+            href={require("../../assets/Touhidul_Shawan_CV.pdf")}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </ul>
         <div className="flex items-center">
           <a
