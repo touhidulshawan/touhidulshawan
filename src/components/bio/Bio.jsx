@@ -5,9 +5,12 @@ import Contact from "../contact/Contact";
 const Bio = () => {
   return (
     <div className="flex justify-start items-start flex-col">
-      <p className="tracking-widest text-left  leading-loose text-lg pb-3">
+      <p
+        style={{ color: "#0F172A" }}
+        className="tracking-widest text-left  leading-loose text-lg pb-3"
+      >
         <span className="text-3xl">Hi</span>, I am{" "}
-        <span className="font-bold uppercase text-xl">Touhidul Shawan</span>, a
+        <span className="font-bold uppercase text-xl ">Touhidul Shawan</span>, a
         self-taught Web Developer. Currently I am a frontend developer but also
         has interest to learn backend development. I build UI components using
         modern frontend technology like React. Already, I have worked as

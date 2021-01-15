@@ -9,39 +9,28 @@ import Reviews from "./containers/client-reviews/ClientReviews";
 import Page404 from "./components/404/Page404";
 import Aux from "./components/hoc/Aux";
 
-import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "./components/darkMode/globalStyles";
-import { lightTheme, darkTheme } from "./components/darkMode/theme";
-import { useDarkMode } from "./components/darkMode/useDarkMode";
-
 const App = () => {
-  const [theme, themeToggler] = useDarkMode();
-  const themeMode = theme === "light" ? lightTheme : darkTheme;
-
   return (
-    <ThemeProvider theme={themeMode}>
-      <Aux>
-        <GlobalStyles />
-        <Switch>
-          <Route path="/" exact>
-            <Home theme={theme} themeToggler={themeToggler} />
-          </Route>
-          <Route path="/projects" exact>
-            <Projects theme={theme} themeToggler={themeToggler} />
-          </Route>
-          <Route path="/skills" exact>
-            <Skills theme={theme} themeToggler={themeToggler} />
-          </Route>
-          <Route path="/reviews" exact>
-            <Reviews theme={theme} themeToggler={themeToggler} />
-          </Route>
-          <Route path="/page-not-found">
-            <Page404 />
-          </Route>
-          <Redirect to="/page-not-found" />
-        </Switch>
-      </Aux>
-    </ThemeProvider>
+    <Aux>
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/projects" exact>
+          <Projects />
+        </Route>
+        <Route path="/skills" exact>
+          <Skills />
+        </Route>
+        <Route path="/reviews" exact>
+          <Reviews />
+        </Route>
+        <Route path="/page-not-found">
+          <Page404 />
+        </Route>
+        <Redirect to="/page-not-found" />
+      </Switch>
+    </Aux>
   );
 };
 

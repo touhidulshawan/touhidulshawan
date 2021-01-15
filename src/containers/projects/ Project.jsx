@@ -5,15 +5,17 @@ import { AiFillEye } from "react-icons/ai";
 
 const Project = (props) => {
   return (
-    <div className="p-3 shadow-md rounded-md">
-      <h4 className="text-xl text-teal-500 pb-4">{props.title}</h4>
-      <p className="pb-4">{props.description}</p>
-      <div className="mt-4 flex flex-col lg:flex-row">
+    <div className=" bg-gradient-to-tr from-blue-200 via-gray-200 to-pink-200 shadow-md  rounded-md flex flex-col justify-between">
+      <div className="p-4 h-full">
+        <h4 className="text-xl text-pink-500 pb-4">{props.title}</h4>
+        <p className="pb-4">{props.description}</p>
+      </div>
+      <div className="flex flex-row justify-between items-center pb-2 mb-4">
         <a
           href={props.sourceLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex justify-center items-center  py-2 px-4    text-gray-800 mb-2 bg-purple-400 lg:bg-transparent lg:text-gray-600  lg:mr-3 lg:hover:text-purple-400 transition ease-in-out duration-500"
+          className="flex justify-center items-center  py-2 px-4 text-purple-200 bg-purple-800  transition ease-in-out duration-500 rounded-r-md"
         >
           <AiFillGithub className="mr-2 text-xl" />
           <span>View Code</span>
@@ -22,7 +24,7 @@ const Project = (props) => {
           href={props.liveLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex justify-center items-center  p-2  text-gray-800 mb-2 bg-gray-400 lg:bg-transparent lg:text-gray-600  lg:hover:text-blue-400 transition ease-in-out duration-500"
+          className="flex justify-center items-center  p-2  text-blue-200 bg-blue-800  transition ease-in-out duration-500 rounded-l-md"
         >
           <AiFillEye className="mr-2 text-2xl" />
           <span>Live Preview</span>

@@ -5,31 +5,30 @@
   "author": "Touhidul Shawan",
   "homepage": "https://touhidulshawan.github.io/touhidulshawan/",
   "dependencies": {
+    "@craco/craco": "^6.0.0",
     "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "autoprefixer": "^10.2.1",
+    "autoprefixer": "^9.8.6",
     "gh-pages": "^3.1.0",
-    "postcss": "^8.2.4",
+    "postcss": "^7.0.35",
     "postcss-cli": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
     "styled-components": "^5.2.0",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "build:css": "postcss src/tailwind.css -o src/index.css",
-    "eject": "react-scripts eject"
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": "react-app"
