@@ -14,7 +14,7 @@ const ClientReviews = (props) => {
   return (
     <div className=" bg-gradient-to-br from-blue-400  to-pink-400 overflow-hidden">
       <NavBar />
-      <div className=" container mx-auto mt-20 lg:mt-8">
+      <div className=" container mx-auto mt-4 lg:mt-8">
         <div className=" p-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-10">
           {reviews.map((r) => {
             return (

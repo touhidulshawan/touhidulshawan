@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import NavItem from "../navItem/NavItem";
 import { AiFillGithub } from "react-icons/ai";
 import { RiMenu3Line } from "react-icons/ri";
+import PDF from "../../assets/_resume/Touhidul_Shawan_CV.pdf";
 
 const SmallScreenNav = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -45,14 +46,14 @@ const SmallScreenNav = (props) => {
           link="/reviews"
           linkName="Reviews"
         />
-        <a
+        <button
           className="uppercase text-gray-300 bg-gray-900 text-sm font-bold tracking-wide border-2 border-gray-300 p-2 mt-3 rounded hover:text-green-800 transition-all duration-300 ease-in-out"
-          href={require("../../assets/Touhidul_Shawan_CV.pdf")}
+          onClick={() => window.open(PDF)}
           target="_blank"
           rel="noopener noreferrer"
         >
           Resume
-        </a>
+        </button>
       </ul>
     </nav>
   );

@@ -2,6 +2,8 @@ import React from "react";
 import NavItem from "../navItem/NavItem";
 import { AiFillGithub } from "react-icons/ai";
 
+import PDF from "../../assets/_resume/Touhidul_Shawan_CV.pdf";
+
 const FullScreenNav = (props) => {
   return (
     <nav className="p-4 py-6 top-0 left-0 w-full">
@@ -35,14 +37,14 @@ const FullScreenNav = (props) => {
         </ul>
 
         <div>
-          <a
+          <button
             className="uppercase p-2 rounded bg-gray-800 text-gray-200 text-sm border-2 border-gray-200 font-bold tracking-wide hover:bg-gray-700 hover:text-gray-400 transition-all duration-300 ease-in-out"
-            href={require("../../assets/Touhidul_Shawan_CV.pdf")}
+            onClick={() => window.open(PDF)}
             target="_blank"
             rel="noopener noreferrer"
           >
             Resume
-          </a>
+          </button>
         </div>
       </div>
     </nav>
