@@ -15,7 +15,7 @@ const Project = (props) => {
           href={props.sourceLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex justify-center items-center  py-2 px-4 text-purple-200 bg-purple-800  transition ease-in-out duration-500 rounded-r-md"
+          className="flex justify-center items-center  py-2 px-4 text-purple-200 bg-purple-800 rounded-r-md"
         >
           <AiFillGithub className="mr-2 text-xl" />
           <span>View Code</span>
@@ -24,7 +24,7 @@ const Project = (props) => {
           href={props.liveLink}
           target="_blank"
           rel="noreferrer noopener"
-          className="flex justify-center items-center  p-2  text-blue-200 bg-blue-800  transition ease-in-out duration-500 rounded-l-md"
+          className="flex justify-center items-center  p-2  text-blue-200 bg-blue-800 rounded-l-md"
         >
           <AiFillEye className="mr-2 text-2xl" />
           <span>Live Preview</span>
