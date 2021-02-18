@@ -1,5 +1,12 @@
 [
   {
+    "id": "chitchat#1",
+    "projectTitle": "Chit Chat",
+    "projectDes": "A chat application with react and firebase",
+    "sourceLink": "https://github.com/touhidulShawan/chitchat",
+    "liveLink": "https://chitchat-dev-8c0df.web.app"
+  },
+  {
     "id": "r#1",
     "projectTitle": "Pop Quiz",
     "projectDes": "A Pop Quiz app made with react",
