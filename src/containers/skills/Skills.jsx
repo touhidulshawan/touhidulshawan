@@ -22,41 +22,47 @@ const Projects = () => {
   });
 
   return (
-    <div className="bg-gradient-to-br from-blue-400  to-pink-400 min-h-screen overflow-hidden">
+    <div>
       <NavBar />
-      <div className="mb-16 mt-4  container m-auto md:w-2/3 p-4 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-10 ">
-        <Skill icon={<FaHtml5 />} skillText="html" color="text-red-500" />
-        <Skill
-          icon={<FaCss3Alt />}
-          skillText="css/scss"
-          color="text-blue-500"
-        />
-        <Skill
-          icon={<FaCss3Alt />}
-          skillText="tailwindcss"
-          color="text-blue-500"
-        />
-        <Skill
-          icon={<FaBootstrap />}
-          skillText="bootstrap"
-          color="text-purple-600"
-        />
-        <Skill
-          icon={<DiJavascript1 />}
-          skillText="javascript"
-          color="text-yellow-500"
-        />
-        <Skill
-          icon={<SiTypescript />}
-          skillText="typescript"
-          color="text-indigo-600"
-        />
-        <Skill icon={<FaReact />} skillText="react" color="text-blue-600" />
-        <Skill icon={<SiNextDotJs />} skillText="nextjs" color="text-black" />
-        <Skill icon={<FaNodeJs />} skillText="nodejs" color="text-green-600" />
-        <Skill icon={<DiGit />} skillText="git" color="text-red-600" />
-        <Skill icon={<SiVim />} skillText="Vim" color="text-green-800" />
-        <Skill icon={<SiLinux />} skillText="Linux" color="text-blue-700" />
+      <div className="sm:max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-col-5 2xl:grid-col-6">
+          <Skill icon={<FaHtml5 />} skillText="html" color="text-red-500" />
+          <Skill
+            icon={<FaCss3Alt />}
+            skillText="css/scss"
+            color="text-blue-500"
+          />
+          <Skill
+            icon={<FaCss3Alt />}
+            skillText="tailwindcss"
+            color="text-blue-500"
+          />
+          <Skill
+            icon={<FaBootstrap />}
+            skillText="bootstrap"
+            color="text-purple-600"
+          />
+          <Skill
+            icon={<DiJavascript1 />}
+            skillText="javascript"
+            color="text-yellow-500"
+          />
+          <Skill
+            icon={<SiTypescript />}
+            skillText="typescript"
+            color="text-indigo-600"
+          />
+          <Skill icon={<FaReact />} skillText="react" color="text-blue-600" />
+          <Skill icon={<SiNextDotJs />} skillText="nextjs" color="text-black" />
+          <Skill
+            icon={<FaNodeJs />}
+            skillText="nodejs"
+            color="text-green-600"
+          />
+          <Skill icon={<DiGit />} skillText="git" color="text-red-600" />
+          <Skill icon={<SiVim />} skillText="Vim" color="text-green-800" />
+          <Skill icon={<SiLinux />} skillText="Linux" color="text-blue-700" />
+        </div>
       </div>
     </div>
   );

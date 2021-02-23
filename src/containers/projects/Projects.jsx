@@ -12,10 +12,10 @@ const Projects = (props) => {
     document.title = "Projects";
   });
   return (
-    <div className=" bg-gradient-to-br from-blue-400  to-pink-400 overflow-hidden">
+    <div className="">
       <NavBar />
-      <div className="mb-16 p-4">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-10 mt-4">
+      <div className="sm:max-w-3xl md:max-w-4xl lg:max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-col-4 2xl:grid-col-5">
           {projectData.map((p) => {
             return (
               <Project
@@ -24,6 +24,7 @@ const Projects = (props) => {
                 description={p.projectDes}
                 sourceLink={p.sourceLink}
                 liveLink={p.liveLink}
+                imgURL={p.imgURL}
               />
             );
           })}

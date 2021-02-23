@@ -12,10 +12,10 @@ const ClientReviews = (props) => {
   });
 
   return (
-    <div className=" bg-gradient-to-br from-blue-400  to-pink-400 overflow-hidden">
+    <div className="">
       <NavBar />
-      <div className=" container mx-auto mt-4 lg:mt-8">
-        <div className=" p-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-10">
+      <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-col-4 2xl:grid-col-5">
           {reviews.map((r) => {
             return (
               <ReviewList
@@ -27,14 +27,14 @@ const ClientReviews = (props) => {
             );
           })}
         </div>
-        <div className="mt-4 pb-4">
+        <div className="pb-3">
           <a
             href="https://www.fiverr.com/frontwebdev"
             target="_blank"
             rel="noopener noreferrer"
-            className=" text-gray-800 hover:text-indigo-700 transition-all duration-200"
+            className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:text-purple-700 transform transition duration-200 ease-in-out text-purple-600 animate-pulse"
           >
-            <span className="flex justify-center items-center mb-3">
+            <span className="flex justify-center items-center py-2 ">
               <AiOutlineUser className="text-xl mr-2" />
               <span>See More on Fiverr</span>
             </span>
