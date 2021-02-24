@@ -5,13 +5,10 @@ const NavItem = (props) => {
   return (
     <li className="list-none">
       <NavLink
-        activeStyle={{
-          background: "#BFDBFE",
-          color: "#1E40AF",
-        }}
         to={props.link}
         exact
-        className={`${props.className} md:p-3 font-semibold tracking-wide text-gray-800 rounded md:hover:bg-blue-200 md:hover:text-blue-800  transition-all ease-in-out duration-1000 p-1 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50   `}
+        activeStyle={{ color: "#F59E0B" }}
+        className="text-sm  uppercase tracking-wide text-purple-600 hover:text-purple-300 focus:outline-none focus:ring-2 ring-purple-600 ring-offset-2 active:text-purple-800 transform transition duration-300 ease-in-out md:text-base  md:tracking-wider dark:text-gray-300 dark:hover:text-yellow-500"
       >
         {props.linkName}
       </NavLink>

@@ -2,10 +2,10 @@ import React from "react";
 
 const Skill = (props) => {
   return (
-    <div className=" w-32 h-32 m-auto flex flex-col rounded-2xl shadow-lg  justify-center items-center p-4 bg-gradient-to-tr from-blue-200 via-gray-200 to-pink-200">
-      <span className={`text-4xl  mb-2 ${props.color}`}>{props.icon}</span>
+    <div className="flex flex-col justify-center items-center my-3 bg-gray-200 py-4 mx-2  rounded-lg shadow-inner border-b-4 border-r-8 border-t-2 border-l-2 border-gray-700 dark:bg-gray-900 dark:border-gray-200">
+      <span className={`text-5xl ${props.color}`}>{props.icon}</span>
       <p
-        className={`capitalize font-semibold text-base tracking-wide text-center ${props.color}`}
+        className={`text-base py-1 mt-3 uppercase tracking-wide ${props.color}`}
       >
         {props.skillText}
       </p>

@@ -1,10 +1,10 @@
 import React from "react";
 // import img from "../../assets/img/programmer.webp";
-import img from "../../assets/img/3426523.svg";
+import img from "../../assets/img/Portfolio.jpg";
 
 const ProfileImg = () => (
   <img
-    className=" h-full w-full object-cover rounded-md -mt-8 scale-150 lg:mr-10"
+    className="w-64 h-64 border-r-8 border-b-4 border-t-2 border-l-2  border-gray-900 shadow-inner rounded-lg mx-auto my-3 md:w-72 md:h-72 md:mt-4 lg:mt-10 lg:ml-auto dark:border-blue-100 dark:shadow-lg"
     src={img}
     alt="portfolio img"
   />
