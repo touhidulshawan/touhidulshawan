@@ -15,7 +15,7 @@ const ClientReviews = (props) => {
     <div className="">
       <NavBar />
       <div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-col-4 2xl:grid-col-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-col-4 2xl:grid-col-5 lg:mx-6">
           {reviews.map((r) => {
             return (
               <ReviewList

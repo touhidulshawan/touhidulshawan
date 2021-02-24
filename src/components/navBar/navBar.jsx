@@ -8,7 +8,7 @@ const NavBar = (props) => {
   return (
     <>
       <TopBar />
-      <nav className="py-3 lg:-mt-3">
+      <nav className="py-3 lg:-mt-3 lg:mb-3">
         <ul className="flex justify-center items-center space-x-3 md:space-x-4 lg:space-x-5">
           <NavItem className="" link="/" linkName="Home" />
           <NavItem
