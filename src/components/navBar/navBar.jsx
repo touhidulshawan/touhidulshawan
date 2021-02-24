@@ -27,7 +27,7 @@ const NavBar = (props) => {
             linkName="Reviews"
           />
           <button
-            className="uppercase text-sm text-yellow-600 hover:text-yellow-300 focus:outline-none focus:ring-2 ring-yellow-600 ring-offset-2 active:text-yellow-800 transform transition duration-300 ease-in-out md:text-base lg:text-lg md:tracking-wider animate-pulse"
+            className="uppercase text-sm text-yellow-600 hover:text-yellow-300 focus:outline-none focus:ring-2 ring-yellow-600 ring-offset-2 active:text-yellow-800 transform transition duration-300 ease-in-out md:text-base lg:text-lg md:tracking-wider animate-pulse dark:text-yellow-300 dark:hover:text-yellow-600"
             onClick={() => window.open(PDF)}
             target="_blank"
             rel="noopener noreferrer"
