@@ -1,23 +1,20 @@
 {
   "files": {
     "main.css": "/touhidulshawan/static/css/main.e477ad82.chunk.css",
-    "main.js": "/touhidulshawan/static/js/main.1570f6c6.chunk.js",
-    "main.js.map": "/touhidulshawan/static/js/main.1570f6c6.chunk.js.map",
+    "main.js": "/touhidulshawan/static/js/main.895d5b13.chunk.js",
+    "main.js.map": "/touhidulshawan/static/js/main.895d5b13.chunk.js.map",
     "runtime-main.js": "/touhidulshawan/static/js/runtime-main.09a141b3.js",
     "runtime-main.js.map": "/touhidulshawan/static/js/runtime-main.09a141b3.js.map",
-    "static/js/2.ac19a3b5.chunk.js": "/touhidulshawan/static/js/2.ac19a3b5.chunk.js",
-    "static/js/2.ac19a3b5.chunk.js.map": "/touhidulshawan/static/js/2.ac19a3b5.chunk.js.map",
+    "static/js/2.30a6d01d.chunk.js": "/touhidulshawan/static/js/2.30a6d01d.chunk.js",
+    "static/js/2.30a6d01d.chunk.js.map": "/touhidulshawan/static/js/2.30a6d01d.chunk.js.map",
     "index.html": "/touhidulshawan/index.html",
     "static/css/main.e477ad82.chunk.css.map": "/touhidulshawan/static/css/main.e477ad82.chunk.css.map",
-    "static/js/2.ac19a3b5.chunk.js.LICENSE.txt": "/touhidulshawan/static/js/2.ac19a3b5.chunk.js.LICENSE.txt",
-    "static/media/404.b2df4ff4.svg": "/touhidulshawan/static/media/404.b2df4ff4.svg",
-    "static/media/Portfolio.d47c1f5c.jpg": "/touhidulshawan/static/media/Portfolio.d47c1f5c.jpg",
-    "static/media/Touhidul_Shawan_CV.9c139048.pdf": "/touhidulshawan/static/media/Touhidul_Shawan_CV.9c139048.pdf"
+    "static/js/2.30a6d01d.chunk.js.LICENSE.txt": "/touhidulshawan/static/js/2.30a6d01d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.09a141b3.js",
-    "static/js/2.ac19a3b5.chunk.js",
+    "static/js/2.30a6d01d.chunk.js",
     "static/css/main.e477ad82.chunk.css",
-    "static/js/main.1570f6c6.chunk.js"
+    "static/js/main.895d5b13.chunk.js"
   ]
 }
