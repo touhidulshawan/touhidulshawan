@@ -33,6 +33,7 @@
 <img src="https://img.icons8.com/color/48/000000/css-filetype.png"/>
 <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
 <img src="https://img.icons8.com/color/48/000000/sass.png"/>
+<img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="48" height="48" />
 <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
 <img src="https://img.icons8.com/color/48/000000/typescript.png"/>
 <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
