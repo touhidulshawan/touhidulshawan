@@ -1,10 +1,10 @@
 
 <p align="center"><img src="https://github.com/touhidulShawan/touhidulshawan/blob/master/programmer.gif" alt="top_image" style="margin: 20px"  width="400"/></p>
 
-🏡 [website][website] **|** 
-👍 [facebook][facebook] **|** 
-🐦 [twitter][twitter] **|** 
-📷 [instagram][instagram] **|** 
+🏡 [website][website] **|**
+👍 [facebook][facebook] **|**
+🐦 [twitter][twitter] **|**
+📷 [instagram][instagram] **|**
 
 ---
 
@@ -21,27 +21,44 @@
 ---
 
 #### whoami
+
 > I am a  frontend web developer. I mainly work with `React`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Frontend Web Developer.
 
 ---
+
 #### skills 🤹
 
 <p float="left">
-<img src="https://img.icons8.com/color/48/000000/html-filetype.png"/> 
+<img src="https://img.icons8.com/color/48/000000/html-filetype.png"/>
 <img src="https://img.icons8.com/color/48/000000/css-filetype.png"/>
 <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
 <img src="https://img.icons8.com/color/48/000000/sass.png"/>
 <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
 <img src="https://img.icons8.com/color/48/000000/typescript.png"/>
 <img src="https://img.icons8.com/color/48/000000/react-native.png"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vim.svg" width="48" height="48" />   
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vim.svg" width="48" height="48" />
 <img src="https://img.icons8.com/color/48/000000/linux.png"/>
 </p>
 
 ---
+
 #### study 👨‍🎓
-> Bachelor of Science in Computer Science and Engineering from [Daffodil International University](https://daffodilvarsity.edu.bd/) <br>
-> Time: From 2017 to 2020
+
+``` js
+const BSc = {
+    degree: "Bachelor of Science",
+    major: "Computer Science and Engineering",
+    institute: "Daffodil International University",
+    isGraduated: true
+}
+
+const MSc = {
+    degree: "Master of Science",
+    major: "Software Engineering",
+    institute: "Daffodil International University",
+    isGraduated: false
+}
+```
 
 ---
 
@@ -66,8 +83,8 @@ Here some reviews from my client in [Fiverr](https://www.fiverr.com/frontwebdev)
 ---
 
 #### Operating System  that I use 💻
-> Arch Linux with Awesome Window Manager 🐧
 
+> Arch Linux with Awesome Window Manager 🐧
 
 [image]:https://github.com/touhidulShawan/touhidulshawan/blob/master/programmer.gif
 [website]: https://touhidulshawan.vercel.app/
