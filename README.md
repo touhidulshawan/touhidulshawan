@@ -29,8 +29,8 @@
 #### skills 🤹
 
 <p float="left">
-<img src="https://img.icons8.com/color/48/000000/html-filetype.png"/>
-<img src="https://img.icons8.com/color/48/000000/css-filetype.png"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="48" height="48"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Devicon-css3-plain.svg" width="48" height="48"/>
 <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
 <img src="https://img.icons8.com/color/48/000000/sass.png"/>
 <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="48" height="48" />
