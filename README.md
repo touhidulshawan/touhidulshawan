@@ -54,18 +54,19 @@
 
 ``` js
 const BSc = {
-    degree: "Bachelor of Science",
-    major: "Computer Science and Engineering",
-    institute: "Daffodil International University",
-    isGraduated: true
-}
+  degree: "Bachelor of Science",
+  major: "Computer Science and Engineering",
+  institute: "Daffodil International University",
+  isGraduated: true,
+};
 
 const MSc = {
-    degree: "Master of Science",
-    major: "Software Engineering",
-    institute: "Daffodil International University",
-    isGraduated: false
-}
+  degree: "Master of Science",
+  major: "Software Engineering",
+  institute: "Daffodil International University",
+  isGraduated: false,
+};
+
 ```
 
 ---
