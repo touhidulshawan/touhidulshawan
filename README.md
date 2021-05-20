@@ -7,22 +7,18 @@
 📷 [instagram][instagram] **|**
 
 ---
-
-<a href="https://github.com/KonradLinkowski">
-    <img align="" height='100%' src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0000&text_color=2f80ed&count_private=true">
-    <img align="" height='100%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=0000&text_color=2f80ed">
-  </a>
-</p>
-
----
-
-![trophies](https://github-profile-trophy.vercel.app/?username=touhidulshawan&margin-w=38)
-
----
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=touhidulshawan&theme=tokyonight&hide_border=true&fire=DD2727"/>
 </p>
+
+---
+<p align="center">
+ <img align="" height='100%' src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=2E3440&text_color=88C0D0&count_private=true">
+ <img align="" height='100%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=282a36&text_color=8be9fd">
+</p>
+
+---
+![trophies](https://github-profile-trophy.vercel.app/?username=touhidulshawan&margin-w=38)
 
 ---
 
