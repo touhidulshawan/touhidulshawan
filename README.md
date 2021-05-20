@@ -20,6 +20,12 @@
 
 ---
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=touhidulshawan&theme=tokyonight&hide_border=true&fire=DD2727"/>
+</p>
+
+---
+
 #### whoami
 
 > I am a  frontend web developer. I mainly work with `React`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Frontend Web Developer.
