@@ -13,9 +13,9 @@
 
 ---
 <p align="left">
- <img  height='150' src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=2E3440&text_color=88C0D0&count_private=true"> 
+ <img  height='100%' src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=2E3440&text_color=88C0D0&count_private=true"> 
   
- <img align="right" height='150' src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=282a36&text_color=8be9fd">
+ <img align="right" height='100%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=282a36&text_color=8be9fd">
 </p>
 
 ---
