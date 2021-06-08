@@ -25,9 +25,10 @@
 
 #### whoami
 
-> I am a  frontend web developer. I mainly work with `React`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Frontend Web Developer.
+<img align="right" src="https://user-images.githubusercontent.com/37136490/121130863-cf8d1280-c850-11eb-8b61-c3e82cb8f1cc.gif" width="70" height="70" />
 
----
+
+Hi there 👋 I am Touhidul Shawan. I am a Web Developer mostly work with `Reactjs, Nextjs, Nodejs`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Web Developer. <br><br>
 
 #### skills 🤹
 
@@ -49,9 +50,8 @@
 <img src="https://img.icons8.com/color/50/000000/java-coffee-cup-logo.png" width="48" height="48"/>
 <img src="https://img.icons8.com/color/50/000000/python.png" width="48" height="48"/>
 <img src="https://img.icons8.com/color/48/000000/linux.png" width="48" height="48"/>
-</p>
+</p><br><br>
 
----
 
 #### study 👨‍🎓
 
@@ -71,8 +71,6 @@ const MSc = {
 };
 
 ```
-
----
 
 #### reviews 🤔
 
@@ -97,6 +95,8 @@ Here some reviews from my client in [Fiverr](https://www.fiverr.com/frontwebdev)
 #### Operating System  that I use 💻
 
 > Arch Linux with Awesome Window Manager 🐧
+
+<img align="right" width="120" heigh="200" src="https://user-images.githubusercontent.com/37136490/121132380-e0d71e80-c852-11eb-8d5d-dc2c44dd074c.gif" />
 
 [image]:https://github.com/touhidulShawan/touhidulshawan/blob/master/programmer.gif
 [website]: https://touhidulshawan.vercel.app/
