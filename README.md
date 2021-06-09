@@ -7,28 +7,18 @@
 📷 [instagram][instagram] **|**
 
 ---
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=touhidulshawan&theme=tokyonight&hide_border=true&fire=DD2727"/>
-</p>
-
----
-<p align="center">
- <img height='100%' src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=2E3440&text_color=88C0D0&count_private=true"> 
- <img height='100%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=282a36&text_color=8be9fd">
-</p>
-
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| <img src="https://github-readme-streak-stats.herokuapp.com?user=touhidulshawan&theme=tokyonight&hide_border=true&fire=DD2727"/>  |  <img width="1604" alt="stat" src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=282a36&text_color=8be9fd&hide=java&langs_count=8"> |
+|<img width="1604" alt="stat" src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=nightowl"> | <img width="1604" alt="stat" src="https://github-readme-stats.vercel.app/api/pin/?username=touhidulshawan&repo=touhidulshawan-next"> | 
 ---
 
-![trophies](https://github-profile-trophy.vercel.app/?username=touhidulshawan&margin-w=38)
-
----
-
-#### whoami
+#### whoami 😎
 
 <img align="right" src="https://user-images.githubusercontent.com/37136490/121130863-cf8d1280-c850-11eb-8b61-c3e82cb8f1cc.gif" width="70" height="70" />
 
 
-Hi there 👋 I am Touhidul Shawan. I am a Web Developer mostly work with `Reactjs, Nextjs, Nodejs`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Web Developer. <br><br>
+Hi there 👋 I am Touhidul Shawan. I am a Web Developer mostly work with `Reactjs, Nextjs, Nodejs`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Web Developer. <br>
 
 #### skills 🤹
 
@@ -50,8 +40,9 @@ Hi there 👋 I am Touhidul Shawan. I am a Web Developer mostly work with `React
 <img src="https://img.icons8.com/color/50/000000/java-coffee-cup-logo.png" width="48" height="48"/>
 <img src="https://img.icons8.com/color/50/000000/python.png" width="48" height="48"/>
 <img src="https://img.icons8.com/color/48/000000/linux.png" width="48" height="48"/>
-</p><br><br>
+</p>
 
+---
 
 #### study 👨‍🎓
 
@@ -71,6 +62,8 @@ const MSc = {
 };
 
 ```
+
+---
 
 #### reviews 🤔
 
