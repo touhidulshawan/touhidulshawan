@@ -9,8 +9,8 @@
 ---
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| <img src="https://github-readme-streak-stats.herokuapp.com?user=touhidulshawan&theme=tokyonight&hide_border=true&fire=DD2727"/>  |  <img width="1604" alt="stat" src="https://github-readme-stats.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=282a36&text_color=8be9fd&hide=java&langs_count=8"> |
-|<img width="1604" alt="stat" src="https://github-readme-stats.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=dracula"> | <img width="1604" alt="stat" src="https://visitor-badge.laobi.icu/badge?page_id=touhidulshawan.touhidulshawan"> | 
+| <img src="https://github-readme-streak-stats.herokuapp.com?user=touhidulshawan&theme=dracula&hide_border=true&fire=DD2727"/>  |  <img width="1604" alt="stat" src="https://github-readme-stats-ecru-zeta.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=282a36&text_color=8be9fd&hide=java,html&langs_count=8"> |
+|<img width="1604" alt="stat" src="https://github-readme-stats-ecru-zeta.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=dracula"> | <img width="1604" alt="stat" src="https://visitor-badge.laobi.icu/badge?page_id=touhidulshawan.touhidulshawan"> | 
 ---
 
 #### whoami 😎
