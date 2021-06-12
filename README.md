@@ -10,15 +10,14 @@
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | <img src="https://hidden-falls-01319.herokuapp.com?user=touhidulshawan&theme=nightowl&hide_border=false&fire=DD2727&border=5f7e97"/>  |  <img width="1604" alt="stat" src="https://github-readme-stats-ecru-zeta.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=011627&text_color=d6deeb&hide=java,html,css&langs_count=8"> |
-|<img width="1604" alt="stat" src="https://github-readme-stats-ecru-zeta.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=nightowl"> | <img width="1604" height="150" alt="devImage" src="https://user-images.githubusercontent.com/37136490/121476453-7f48b880-c9e8-11eb-965f-1a91adf97558.gif" > | 
+|<img width="1604" alt="stat" src="https://github-readme-stats-ecru-zeta.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=nightowl"> | <img width="1604" height="150" alt="devImage" src="https://user-images.githubusercontent.com/37136490/121476453-7f48b880-c9e8-11eb-965f-1a91adf97558.gif" > |
 ---
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there+%F0%9F%91%8B)](https://git.io/typing-svg)
 #### whoami 😎
 <div>
 <img align="right" src="https://user-images.githubusercontent.com/37136490/121130863-cf8d1280-c850-11eb-8b61-c3e82cb8f1cc.gif" width="100" height="100" />
-
-
-<p>Hi there 👋 I am Touhidul Shawan. I am a Web Developer mostly work with `Reactjs, Nextjs, Nodejs`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Web Developer.</p> 
+<p>I am Touhidul Shawan. I am a Web Developer mostly work with `Reactjs, Nextjs, Nodejs`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Web Developer.</p> 
 </div> 
 <br>
 
