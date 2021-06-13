@@ -17,7 +17,8 @@
 #### whoami 😎
 <div>
 <img align="right" src="https://user-images.githubusercontent.com/37136490/121130863-cf8d1280-c850-11eb-8b61-c3e82cb8f1cc.gif" width="100" height="100" />
-<p>I am Touhidul Shawan. I am a Web Developer mostly work with `Reactjs, Nextjs, Nodejs`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Web Developer.</p> 
+  
+I am Touhidul Shawan. I am a Web Developer mostly work with `Reactjs, Nextjs, Nodejs`. Already, I haved worked as freelancer in `Fiverr`. I have become an `one-level seller` in `Fiverr`. I am looking for opportunities to work as a full time Web Developer.
 </div> 
 <br>
 
