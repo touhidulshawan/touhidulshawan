@@ -12,6 +12,7 @@
 | <img src="https://touhidul-readme-streak.herokuapp.com/?user=touhidulshawan&theme=nightowl&hide_border=false&fire=DD2727&border=5f7e97"/>  |  <img width="1604" alt="stat" src="https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=011627&text_color=d6deeb&hide=java,html,css&langs_count=8"> |
 |<img width="1604" alt="stat" src="https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=nightowl"> | <img width="1604" height="150" alt="devImage" src="https://user-images.githubusercontent.com/37136490/121476453-7f48b880-c9e8-11eb-965f-1a91adf97558.gif" > |
 ---
+<p align="center"><img src="https://user-images.githubusercontent.com/37136490/133802884-12355722-158a-4f83-8d70-ce4b3bb96573.gif" alt="dog_img" style="margin: 15px"/></p>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there+%F0%9F%91%8B)](https://git.io/typing-svg)
 #### whoami 😎
@@ -21,6 +22,8 @@
 I am Touhidul Shawan. I am a former Web Developer mostly worked with `Reactjs, Nextjs, Nodejs`. I worked as freelancer in `Fiverr`. I became an `one-level seller` in `Fiverr`.
 </div> 
 <br>
+
+
 
 #### skills 🤹
 
