@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://github.com/touhidulShawan/touhidulshawan/blob/master/programmer.gif" alt="top_image" style="margin: 20px"  width="400"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/37136490/148218926-4df5ab15-2076-41c8-bdfd-0f68b23526e3.png" alt="top_image" style="margin: 20px"  width="600"/></p>
 
 🏡 [website][website] **|**
 👍 [facebook][facebook] **|**
