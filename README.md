@@ -27,26 +27,10 @@ I am a formal Touhidul Shawan. I am a Web Developer mostly worked with `Reactjs,
 
 #### skills 🤹
 
-<p float="left">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="48" height="48"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Devicon-css3-plain.svg" width="48" height="48"/>
-<img src="https://img.icons8.com/color/48/000000/bootstrap.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/48/000000/sass.png" width="48" height="48"/>
-<img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="48" height="48" />
-<img src="https://img.icons8.com/color/48/000000/javascript.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/48/000000/typescript.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/48/000000/nodejs.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/48/000000/react-native.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/48/000000/redux.png" width="48" height="48"/>
-<img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png" width="48" height="48" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vim.svg" width="48" height="48" />
-<img src="https://img.icons8.com/color/50/000000/c-programming.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/50/000000/c-plus-plus-logo.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/50/000000/java-coffee-cup-logo.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/50/000000/python.png" width="48" height="48"/>
-<img src="https://img.icons8.com/color/48/000000/linux.png" width="48" height="48"/>
-</p>
-
+| | | | | | | |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"> |  <img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Devicon-css3-plain.svg">|<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/48/000000/bootstrap.png">|<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/48/000000/sass.png">  |  <img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg">|<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/48/000000/javascript.png">| <img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/48/000000/typescript.png">|  
+|<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/48/000000/nodejs.png">|<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/48/000000/react-native.png"> |<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/48/000000/redux.png"> |<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"> |<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vim.svg"> |<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/50/000000/c-programming.png">|<img width="48" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://img.icons8.com/color/50/000000/c-plus-plus-logo.png">|
 ---
 
 #### study 👨‍🎓
