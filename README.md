@@ -19,7 +19,7 @@
 <div>
 <img align="right" src="https://user-images.githubusercontent.com/37136490/121130863-cf8d1280-c850-11eb-8b61-c3e82cb8f1cc.gif" width="100" height="100" />
   
-I am a formal Touhidul Shawan. I am a Web Developer mostly worked with `Reactjs, Nextjs, Nodejs`. I worked as freelancer in `Fiverr`. I became an `one-level seller` in `Fiverr`.
+I, Touhidul Shawan a formal Web Developer mostly worked with `Reactjs, Nextjs, Nodejs`. I worked as freelancer in `Fiverr`. I became an `one-level seller` in `Fiverr`.
 </div> 
 <br>
 
