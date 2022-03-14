@@ -80,7 +80,6 @@ Here some reviews from my client in [Fiverr](https://www.fiverr.com/frontwebdev)
 
 <img align="right" width="120" heigh="200" src="https://user-images.githubusercontent.com/37136490/121132380-e0d71e80-c852-11eb-8d5d-dc2c44dd074c.gif" />
 
-[image]:https://github.com/touhidulShawan/touhidulshawan/blob/master/programmer.gif
 [website]: https://touhidulshawan.vercel.app/
 [facebook]: https://www.facebook.com/touhidulshawan
 [twitter]: https://twitter.com/TouhidulShaon
