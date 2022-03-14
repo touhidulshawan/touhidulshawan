@@ -1,21 +1,23 @@
-#+attr_html: :alt Profile Image  :align center :class img :style margin:20px;
+#+attr_html: :alt Profile Image  :align center :class img :style margin:20px 20px 20px 20px;
 [[https://user-images.githubusercontent.com/37136490/148218926-4df5ab15-2076-41c8-bdfd-0f68b23526e3.png]]
 
-| [[https://touhidul-readme-streak.herokuapp.com/?user=touhidulshawan&theme=gruvbox&hide_border=false&fire=fb4934&border=689d6a]] |
- [[src][https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=1d2021&text_color=ebdbb2&hide=java,html,css&langs_count=8]]
-  | https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=gruvbox |
+#+attr_html: :alt readme-streak  :align left :class img
+[[https://touhidul-readme-streak.herokuapp.com/?user=touhidulshawan&theme=gruvbox&hide_border=false&fire=fb4934&border=689d6a][readme-streak]]
 
-<p align="center"><img src="https://user-images.githubusercontent.com/37136490/154556526-c050cb03-933e-4862-a91b-9ddc37f9dc23.png" alt="dog_img" style="margin: 20px" width="500"/></p>
+#+attr_html: :alt   :align right :class img
+[[https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=1d2021&text_color=ebdbb2&hide=java,html,css&langs_count=8][most used language]]
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there+%F0%9F%91%8B)](https://git.io/typing-svg)
-#### whoami 😎
-<div>
-<img align="right" src="https://user-images.githubusercontent.com/37136490/121130863-cf8d1280-c850-11eb-8b61-c3e82cb8f1cc.gif" width="100" height="100" />
-  
+
+#+attr_html: :alt  :align left :class img [[src][title]]
+[[https://readme-typing-svg.herokuapp.com/?lines=Hi+there+%F0%9F%91%8B][Typing SVG]]
+
+
+** whoami 😎
+#+attr_html: :alt  :align right :class img
+[[https://user-images.githubusercontent.com/37136490/121130863-cf8d1280-c850-11eb-8b61-c3e82cb8f1cc.gif]]
+
 I, Touhidul Shawan a formal Web Developer mostly worked with `Reactjs, Nextjs, Nodejs`. I worked as freelancer in `Fiverr`. I became an `one-level seller` in `Fiverr`.
-</div> 
-<br>
 
 
 
