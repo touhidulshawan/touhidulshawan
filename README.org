@@ -1,10 +1,8 @@
 #+attr_html: :alt Profile Image  :align center :class img :style margin:20px 20px 20px 20px;
 [[https://user-images.githubusercontent.com/37136490/148218926-4df5ab15-2076-41c8-bdfd-0f68b23526e3.png]]
 
-#+attr_html: :alt readme-streak  :align left :class img
 [[https://touhidul-readme-streak.herokuapp.com/?user=touhidulshawan&theme=gruvbox&hide_border=false&fire=fb4934&border=689d6a]]
 
-#+attr_html: :alt   :align right :class img
 [[https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=1d2021&text_color=ebdbb2&hide=java,html,css&langs_count=8]]
 
 
