@@ -9,7 +9,7 @@
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | <img src="https://touhidul-readme-streak.herokuapp.com/?user=touhidulshawan&theme=gruvbox&hide_border=false&fire=fb4934&border=689d6a"/>  |  <img width="1604" alt="stat" src="https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api/top-langs/?username=touhidulshawan&hide_title=true&layout=compact&bg_color=1d2021&text_color=ebdbb2&hide=java,html,css&langs_count=8"> |
-|<img width="1604" alt="stat" src="https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=gruvbox"> |<img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="1604" height="100" /> |
+|<img width="1604" alt="stat" src="https://github-readme-stats-3m3423jdt-touhidulshawan.vercel.app/api?username=touhidulshawan&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&count_private=true&theme=gruvbox"> |<img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="1604" height="150" /> |
 
 <p align="center"><img src="https://user-images.githubusercontent.com/37136490/154556526-c050cb03-933e-4862-a91b-9ddc37f9dc23.png" alt="dog_img" style="margin: 20px" width="500"/></p>
 
