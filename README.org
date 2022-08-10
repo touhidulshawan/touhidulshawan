@@ -6,18 +6,19 @@
 #+html: <p align="center"><img width="350px" src="img/hacker-thinking-about-code.gif" /></p>
 
 **  whoami
-
-#+begin_verse
 Hi, I'am Touhidul Shawan on path to become an Ethical Hacker.
-#+end_verse
 -----
 
 ** education
+#+begin_quote
+"title": "Bachelor of Science in Computer Science and Engineering",
+"institute": "Daffodil International University",
+"status": "Graduated"
+#+end_quote
 
-#+begin_json
-{
-    "title": "Bachelor of Science in Computer Science and Engineering",
-    "institute": "Daffodil International University",
-    "status": "Graduated"
-}
-#+end_json
+#+begin_quote
+"title": "Masters of Science in Software Engineering",
+"major": "Cyber Security"
+"institute": "Daffodil International University",
+"status": "Not Graduated"
+#+end_quote
