@@ -3,7 +3,7 @@
 #+author: Touhidul Shawan
 #+email: touhidulshawan.gmail.com
 
-#+html: <p align="center"><img width="350px" src="img/hacker-thinking-about-code.gif" /></p>
+#+html: <p align="center"><img width="300px" height="300px" src="img/hacker-thinking-about-code.gif" /></p>
 
 **  whoami
 Hi, I'am Touhidul Shawan on path to become an Ethical Hacker.
