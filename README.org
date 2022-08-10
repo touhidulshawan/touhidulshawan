@@ -1,8 +1,23 @@
-# #+description: Descriptions about Touhidul Shawan
-# #+author: Touhidul Shawan
+#+title: Touhidul Shawan
+#+description: Descriptions about Touhidul Shawan
+#+author: Touhidul Shawan
+#+email: touhidulshawan.gmail.com
 
-# #+html: <p align="center"><img width="350px" src="img/hacker-thinking-about-code.gif" /></p>
+#+html: <p align="center"><img width="350px" src="img/hacker-thinking-about-code.gif" /></p>
 
-# **  whoami
+**  whoami
 
-# Hi, I'am Touhidul Shawan.
+#+begin_verse
+Hi, I'am Touhidul Shawan on path to become an Ethical Hacker.
+#+end_verse
+-----
+
+** education
+
+#+begin_json
+{
+    "title": "Bachelor of Science in Computer Science and Engineering",
+    "institute": "Daffodil International University",
+    "status": "Graduated"
+}
+#+end_json
