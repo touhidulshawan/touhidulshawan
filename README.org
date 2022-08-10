@@ -1,4 +1,3 @@
-#+title: Touhidul Shawan
 #+description: Descriptions about Touhidul Shawan
 #+author: Touhidul Shawan
 
