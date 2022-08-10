@@ -15,7 +15,7 @@ status: Graduated |
 #+end_quote
 
 #+begin_quote
-title: Masters of Science in Software Engineering |
+title: Master of Science in Software Engineering |
 major: Cyber Security |
 institute: Daffodil International University |
 status: Not Graduated |
