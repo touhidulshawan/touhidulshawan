@@ -1,8 +1,7 @@
 #+description: Descriptions about Touhidul Shawan
 #+author: Touhidul Shawan
 
-#+attr_html:  :style margin-left: auto; margin-right: auto;
-[[./img/hacker-thinking-about-code.gif]]
+#+html: <p align="center"><img src="img/hacker-thinking-about-code.gif" /></p>
 
 **  whoami
 Hi, I'am Touhidul Shawan on path to become an Ethical Hacker.
