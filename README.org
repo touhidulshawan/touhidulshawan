@@ -2,7 +2,6 @@
 #+author: Touhidul Shawan
 
 #+attr_html:  :style margin-left: auto; margin-right: auto;
-#+attr_html: :width 300px
 [[./img/hacker-thinking-about-code.gif]]
 
 **  whoami
