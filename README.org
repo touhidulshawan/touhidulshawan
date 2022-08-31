@@ -3,20 +3,20 @@
 
 #+html: <p align="center"><img src="img/hacker-thinking-about-code.gif" /></p>
 
-**  whoami
-Hi, I'am Touhidul Shawan on path to become an Ethical Hacker.
------
+#**  whoami
+#Hi, I'am Touhidul Shawan on path to become an Ethical Hacker.
+#-----
 
-** education
-#+begin_quote
-title: Bachelor of Science in Computer Science and Engineering |
-institute: Daffodil International University |
-status: Graduated |
-#+end_quote
+#** education
+##+begin_quote
+#title: Bachelor of Science in Computer Science and Engineering |
+#institute: Daffodil International University |
+#status: Graduated |
+##+end_quote
 
-#+begin_quote
-title: Master of Science in Software Engineering |
-major: Cyber Security |
-institute: Daffodil International University |
-status: Not Graduated |
-#+end_quote
+##+begin_quote
+#title: Master of Science in Software Engineering |
+#major: Cyber Security |
+#institute: Daffodil International University |
+#status: Not Graduated |
+##+end_quote
